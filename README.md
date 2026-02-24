@@ -90,7 +90,6 @@
 
 <br/>
 
-<img align="right" width="230" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```yaml
 ┌─────────────────────────────────────────────────┐
@@ -295,80 +294,6 @@ const vishan = {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ---
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vishandeveloper29/Vishandeveloper29/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vishandeveloper29/Vishandeveloper29/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/Vishandeveloper29/Vishandeveloper29/output/github-contribution-grid-snake-dark.svg" width="95%" />
-  </picture>
-</div>
-
-<details>
-<summary>⚙️ <b>Enable the Snake — click to expand</b></summary>
-<br/>
-
-Create `.github/workflows/snake.yml` in your profile repo:
-
-```yaml
-name: Generate Snake Animation
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to **Actions → Run workflow** to generate for the first time!
-</details>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 🎵 Spotify — Now Playing
-
-<div align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=true&background_color=1a1b27&interchange=true&bar_color=38bdf8&bar_color_cover=true" width="420" />
-  </a>
-</div>
-
-<details>
-<summary>⚙️ <b>Enable Spotify — click to expand</b></summary>
-<br/>
-
-1. Visit **[spotify-github-profile.vercel.app](https://spotify-github-profile.vercel.app/)**
-2. Login with Spotify & copy your **User ID**
-3. Replace both `YOUR_SPOTIFY_UID` above with your ID
-
-</details>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
 ## 📬 Contact Me
 
 <br/>
