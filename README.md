@@ -441,11 +441,6 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
   <rect x="165" y="254" width="312" height="14" rx="7" fill="url(#bar7)"/>
   <text x="660" y="266" font-family="monospace" font-size="11" fill="#38BDF8" font-weight="700">65% ⭐⭐⭐ 🌱</text>
 
-  <!-- React 30% -->
-  <text x="155" y="300" font-family="monospace" font-size="12" fill="#fb923c" text-anchor="end" font-weight="600">React.js</text>
-  <rect x="165" y="288" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="288" width="144" height="14" rx="7" fill="url(#bar8)"/>
-  <text x="660" y="300" font-family="monospace" font-size="11" fill="#fb923c" font-weight="700">30% ⭐⭐ 🚀</text>
 </svg>
 </div>
 
