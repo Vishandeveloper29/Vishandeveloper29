@@ -268,7 +268,7 @@ console.log("▶ Let's build something amazing!");
   <rect width="900" height="52" rx="10" fill="url(#s2bg)"/>
   <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s2t)"/>
   <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s2t)" text-anchor="middle" letter-spacing="3">🧑‍💻  WHO I REALLY AM</text>
+        fill="url(#s2t)" text-anchor="middle" letter-spacing="3">🧑‍💻  WHO I AM</text>
   <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s2t)"/>
 </svg>
 </div>
