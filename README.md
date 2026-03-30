@@ -4,7 +4,7 @@
 
 <!-- ░░░░░░░░░░░░░░░ HERO BANNER ░░░░░░░░░░░░░░░ -->
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%">
   <defs>
     <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0d0221"/>
@@ -14,91 +14,109 @@
     </linearGradient>
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ff6b6b"/>
-      <stop offset="25%"  stop-color="#ffd93d"/>
-      <stop offset="50%"  stop-color="#6bcb77"/>
-      <stop offset="75%"  stop-color="#4d96ff"/>
+      <stop offset="20%"  stop-color="#ffd93d"/>
+      <stop offset="40%"  stop-color="#c8ff00"/>
+      <stop offset="60%"  stop-color="#00e5ff"/>
+      <stop offset="80%"  stop-color="#4d96ff"/>
       <stop offset="100%" stop-color="#c77dff"/>
     </linearGradient>
     <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#38BDF8"/>
+      <stop offset="0%"   stop-color="#00e5ff"/>
       <stop offset="50%"  stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ffd93d"/>
     </linearGradient>
-    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="rainbowBar" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ff6b6b"/>
-      <stop offset="50%"  stop-color="#ffd93d"/>
-      <stop offset="100%" stop-color="#6bcb77"/>
-    </linearGradient>
-    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#4d96ff"/>
-      <stop offset="50%"  stop-color="#c77dff"/>
+      <stop offset="16%"  stop-color="#ffd93d"/>
+      <stop offset="33%"  stop-color="#c8ff00"/>
+      <stop offset="50%"  stop-color="#00e5ff"/>
+      <stop offset="66%"  stop-color="#4d96ff"/>
+      <stop offset="83%"  stop-color="#c77dff"/>
       <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <!-- BG -->
-  <rect width="900" height="280" fill="url(#heroBg)"/>
+  <rect width="900" height="300" fill="url(#heroBg)"/>
 
-  <!-- Glowing orbs -->
-  <circle cx="120" cy="80"  r="60" fill="#c77dff" opacity="0.08"/>
-  <circle cx="780" cy="180" r="80" fill="#38BDF8" opacity="0.07"/>
-  <circle cx="450" cy="260" r="50" fill="#ffd93d" opacity="0.06"/>
-  <circle cx="200" cy="220" r="40" fill="#ff6b6b" opacity="0.06"/>
-  <circle cx="700" cy="50"  r="45" fill="#6bcb77" opacity="0.06"/>
+  <!-- Big colorful glowing orbs -->
+  <circle cx="100"  cy="80"  r="90"  fill="#c77dff" opacity="0.12"/>
+  <circle cx="800"  cy="200" r="110" fill="#00e5ff"  opacity="0.09"/>
+  <circle cx="450"  cy="280" r="70"  fill="#ffd93d"  opacity="0.08"/>
+  <circle cx="200"  cy="240" r="55"  fill="#ff6b6b"  opacity="0.08"/>
+  <circle cx="720"  cy="50"  r="65"  fill="#c8ff00"  opacity="0.08"/>
+  <circle cx="350"  cy="40"  r="40"  fill="#f472b6"  opacity="0.07"/>
+  <circle cx="600"  cy="260" r="50"  fill="#4d96ff"  opacity="0.08"/>
 
   <!-- Star particles -->
-  <circle cx="50"  cy="30"  r="2.5" fill="#ff6b6b"  opacity="0.9" filter="url(#glow)"/>
-  <circle cx="150" cy="15"  r="2"   fill="#ffd93d"  opacity="0.8" filter="url(#glow)"/>
-  <circle cx="280" cy="40"  r="1.5" fill="#6bcb77"  opacity="0.7"/>
-  <circle cx="420" cy="20"  r="2.5" fill="#4d96ff"  opacity="0.9" filter="url(#glow)"/>
-  <circle cx="560" cy="35"  r="1.5" fill="#c77dff"  opacity="0.7"/>
-  <circle cx="680" cy="18"  r="2"   fill="#f472b6"  opacity="0.8" filter="url(#glow)"/>
-  <circle cx="800" cy="40"  r="2.5" fill="#fb923c"  opacity="0.9" filter="url(#glow)"/>
-  <circle cx="870" cy="15"  r="1.5" fill="#38BDF8"  opacity="0.7"/>
-  <circle cx="30"  cy="200" r="2"   fill="#ffd93d"  opacity="0.6"/>
-  <circle cx="860" cy="230" r="2"   fill="#ff6b6b"  opacity="0.6"/>
-  <circle cx="100" cy="250" r="1.5" fill="#c77dff"  opacity="0.5"/>
-  <circle cx="820" cy="100" r="1.5" fill="#6bcb77"  opacity="0.5"/>
+  <circle cx="50"  cy="25"  r="3"   fill="#ff6b6b"  opacity="1" filter="url(#glow2)"/>
+  <circle cx="130" cy="12"  r="2.5" fill="#ffd93d"  opacity="0.9" filter="url(#glow2)"/>
+  <circle cx="260" cy="35"  r="2"   fill="#c8ff00"  opacity="0.8"/>
+  <circle cx="380" cy="18"  r="3"   fill="#00e5ff"  opacity="1" filter="url(#glow2)"/>
+  <circle cx="510" cy="28"  r="2"   fill="#4d96ff"  opacity="0.8"/>
+  <circle cx="640" cy="14"  r="2.5" fill="#c77dff"  opacity="0.9" filter="url(#glow2)"/>
+  <circle cx="760" cy="32"  r="3"   fill="#f472b6"  opacity="1" filter="url(#glow2)"/>
+  <circle cx="860" cy="10"  r="2"   fill="#ffd93d"  opacity="0.8"/>
+  <circle cx="25"  cy="210" r="2.5" fill="#c8ff00"  opacity="0.7"/>
+  <circle cx="875" cy="240" r="2.5" fill="#ff6b6b"  opacity="0.7"/>
+  <circle cx="95"  cy="265" r="2"   fill="#c77dff"  opacity="0.6"/>
+  <circle cx="830" cy="110" r="2"   fill="#00e5ff"  opacity="0.6"/>
+  <circle cx="450" cy="15"  r="2"   fill="#f472b6"  opacity="0.7"/>
+  <circle cx="310" cy="270" r="2.5" fill="#ffd93d"  opacity="0.6"/>
+  <circle cx="680" cy="270" r="2"   fill="#c8ff00"  opacity="0.6"/>
 
-  <!-- Top rainbow accent bar -->
-  <rect x="0" y="0" width="900" height="4" fill="url(#line1)"/>
+  <!-- Top rainbow accent bar (thick) -->
+  <rect x="0" y="0" width="900" height="5" fill="url(#rainbowBar)"/>
 
-  <!-- VR badge -->
-  <rect x="395" y="30" width="110" height="36" rx="18" fill="none" stroke="url(#subGrad)" stroke-width="1.5" opacity="0.8"/>
-  <text x="450" y="53" font-family="monospace" font-size="13" font-weight="700"
-        fill="url(#subGrad)" text-anchor="middle" letter-spacing="2">⚡ VR.dev</text>
+  <!-- VR badge (glowing) -->
+  <rect x="390" y="28" width="120" height="40" rx="20" fill="none" stroke="url(#subGrad)" stroke-width="2" opacity="0.9"/>
+  <rect x="390" y="28" width="120" height="40" rx="20" fill="url(#subGrad)" opacity="0.08"/>
+  <text x="450" y="53" font-family="monospace" font-size="14" font-weight="800"
+        fill="url(#subGrad)" text-anchor="middle" letter-spacing="3" filter="url(#glow2)">⚡ VR.dev</text>
 
-  <!-- MAIN NAME -->
-  <text x="450" y="130" font-family="monospace" font-size="72" font-weight="900"
-        fill="url(#nameGrad)" text-anchor="middle" letter-spacing="8" filter="url(#glow)">VISHAN RABARI</text>
+  <!-- MAIN NAME (massive, glowing) -->
+  <text x="450" y="138" font-family="monospace" font-size="74" font-weight="900"
+        fill="url(#nameGrad)" text-anchor="middle" letter-spacing="9" filter="url(#glow)">VISHAN RABARI</text>
 
   <!-- Subtitle -->
-  <text x="450" y="168" font-family="monospace" font-size="18" font-weight="700"
-        fill="url(#subGrad)" text-anchor="middle" letter-spacing="5">✦  FRONTEND DEVELOPER  &amp;  CREATOR  ✦</text>
+  <text x="450" y="174" font-family="monospace" font-size="17" font-weight="700"
+        fill="url(#subGrad)" text-anchor="middle" letter-spacing="5" filter="url(#glow2)">✦  FRONTEND DEVELOPER  &amp;  CREATOR  ✦</text>
 
-  <!-- Tag pills -->
-  <rect x="150" y="185" width="90"  height="22" rx="11" fill="#ff6b6b"  opacity="0.18"/>
-  <rect x="255" y="185" width="75"  height="22" rx="11" fill="#ffd93d"  opacity="0.18"/>
-  <rect x="345" y="185" width="80"  height="22" rx="11" fill="#6bcb77"  opacity="0.18"/>
-  <rect x="440" y="185" width="65"  height="22" rx="11" fill="#4d96ff"  opacity="0.18"/>
-  <rect x="520" y="185" width="85"  height="22" rx="11" fill="#c77dff"  opacity="0.18"/>
-  <rect x="620" y="185" width="130" height="22" rx="11" fill="#f472b6"  opacity="0.18"/>
-  <text x="195" y="200" font-family="monospace" font-size="10" fill="#ff6b6b"  text-anchor="middle" font-weight="600">HTML5</text>
-  <text x="292" y="200" font-family="monospace" font-size="10" fill="#ffd93d"  text-anchor="middle" font-weight="600">CSS3</text>
-  <text x="385" y="200" font-family="monospace" font-size="10" fill="#6bcb77"  text-anchor="middle" font-weight="600">JavaScript</text>
-  <text x="472" y="200" font-family="monospace" font-size="10" fill="#4d96ff"  text-anchor="middle" font-weight="600">Figma</text>
-  <text x="562" y="200" font-family="monospace" font-size="10" fill="#c77dff"  text-anchor="middle" font-weight="600">REST APIs</text>
-  <text x="685" y="200" font-family="monospace" font-size="10" fill="#f472b6"  text-anchor="middle" font-weight="600">Open to Freelance ✅</text>
+  <!-- Colored tag pills row -->
+  <rect x="115" y="192" width="95"  height="24" rx="12" fill="#ff6b6b"  opacity="0.22"/>
+  <rect x="220" y="192" width="80"  height="24" rx="12" fill="#ffd93d"  opacity="0.22"/>
+  <rect x="310" y="192" width="95"  height="24" rx="12" fill="#c8ff00"  opacity="0.22"/>
+  <rect x="415" y="192" width="70"  height="24" rx="12" fill="#00e5ff"  opacity="0.22"/>
+  <rect x="495" y="192" width="90"  height="24" rx="12" fill="#c77dff"  opacity="0.22"/>
+  <rect x="595" y="192" width="85"  height="24" rx="12" fill="#f472b6"  opacity="0.22"/>
+  <rect x="690" y="192" width="95"  height="24" rx="12" fill="#4d96ff"  opacity="0.22"/>
+  <text x="162" y="209" font-family="monospace" font-size="10.5" fill="#ff6b6b"  text-anchor="middle" font-weight="700">HTML5 🔥</text>
+  <text x="260" y="209" font-family="monospace" font-size="10.5" fill="#ffd93d"  text-anchor="middle" font-weight="700">CSS3 ✨</text>
+  <text x="357" y="209" font-family="monospace" font-size="10.5" fill="#c8ff00"  text-anchor="middle" font-weight="700">JavaScript ⚡</text>
+  <text x="450" y="209" font-family="monospace" font-size="10.5" fill="#00e5ff"  text-anchor="middle" font-weight="700">Figma</text>
+  <text x="540" y="209" font-family="monospace" font-size="10.5" fill="#c77dff"  text-anchor="middle" font-weight="700">REST APIs</text>
+  <text x="637" y="209" font-family="monospace" font-size="10.5" fill="#f472b6"  text-anchor="middle" font-weight="700">React 🌱</text>
+  <text x="737" y="209" font-family="monospace" font-size="10.5" fill="#4d96ff"  text-anchor="middle" font-weight="700">Freelance ✅</text>
+
+  <!-- Status row -->
+  <circle cx="292" cy="245" r="5" fill="#c8ff00" opacity="0.9" filter="url(#glow2)"/>
+  <text x="304" y="250" font-family="monospace" font-size="11" fill="#c8ff00" font-weight="700">OPEN TO FREELANCE</text>
+  <text x="480" y="250" font-family="monospace" font-size="11" fill="#94a3b8">·</text>
+  <text x="493" y="250" font-family="monospace" font-size="11" fill="#ffd93d" font-weight="600">📍 Gandhidham, Gujarat 🇮🇳</text>
 
   <!-- Bottom wave -->
-  <path d="M0,245 Q150,225 300,240 Q450,255 600,238 Q750,222 900,245 L900,280 L0,280 Z" fill="#0d0221" opacity="0.7"/>
+  <path d="M0,268 Q150,250 300,264 Q450,278 600,260 Q750,244 900,268 L900,300 L0,300 Z" fill="#0d0221" opacity="0.8"/>
 
   <!-- Bottom rainbow bar -->
-  <rect x="0" y="276" width="900" height="4" fill="url(#line2)"/>
+  <rect x="0" y="295" width="900" height="5" fill="url(#rainbowBar)"/>
 </svg>
 </div>
 
@@ -106,7 +124,7 @@
 
 <!-- TYPING SVG -->
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=700&color=FF6B9D&center=true&vCenter=true&multiline=false&width=850&lines=🚀+Available+for+Freelance+·+Gandhidham%2C+Gujarat+🇮🇳;🎨+Crafting+pixel-perfect%2C+interactive+web+experiences;💻+HTML+·+CSS+·+JavaScript+·+Figma+·+REST+APIs;⚡+Fast+Delivery+%7C+28%2B+Repos+%7C+100%25+Satisfied+Clients;🌱+Currently+levelling+up+with+React.js;✨+Design+First.+Build+Second.+Ship+Always." alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=700&color=C8FF00&center=true&vCenter=true&multiline=false&width=850&lines=🚀+Available+for+Freelance+·+Gandhidham%2C+Gujarat+🇮🇳;🎨+Crafting+pixel-perfect%2C+interactive+web+experiences;💻+HTML+·+CSS+·+JavaScript+·+Figma+·+REST+APIs;⚡+Fast+Delivery+%7C+28%2B+Repos+%7C+100%25+Satisfied+Clients;🌱+Currently+levelling+up+with+React.js;✨+Design+First.+Build+Second.+Ship+Always." alt="Typing SVG"/>
 </div>
 
 <br/>
@@ -117,7 +135,7 @@
 [![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-vishanrabari.vercel.app-ff6b6b?style=for-the-badge&labelColor=1a0a0a)](https://vishanrabari.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/💼_LINKEDIN-Connect-4d96ff?style=for-the-badge&labelColor=0a0a1a)](https://www.linkedin.com/in/vishan-rabari-7634ab392)
 [![Gmail](https://img.shields.io/badge/📧_GMAIL-Email_Me-ff4444?style=for-the-badge&labelColor=1a0a0a)](mailto:rabarivishan2@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/💬_WHATSAPP-Chat_Now-6bcb77?style=for-the-badge&labelColor=0a1a0a)](https://wa.me/918141314836)
+[![WhatsApp](https://img.shields.io/badge/💬_WHATSAPP-Chat_Now-c8ff00?style=for-the-badge&labelColor=0a1a0a)](https://wa.me/918141314836)
 [![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-Follow-f472b6?style=for-the-badge&labelColor=1a0a1a)](https://www.instagram.com/thevishandeveloper7)
 [![Resume](https://img.shields.io/badge/📄_RESUME-View_Now-ffd93d?style=for-the-badge&labelColor=1a1a0a)](https://drive.google.com/file/d/1upMC-OW445YW8oTZR3RY_UZ8RA6wsmvX/view)
 
@@ -128,7 +146,7 @@
 <!-- STATUS BADGES -->
 <div align="center">
 
-![Open](https://img.shields.io/badge/🟢_STATUS-OPEN_FOR_FREELANCE-6bcb77?style=for-the-badge&labelColor=0a150a)
+![Open](https://img.shields.io/badge/🟢_STATUS-OPEN_FOR_FREELANCE-c8ff00?style=for-the-badge&labelColor=0a150a)
 ![Location](https://img.shields.io/badge/📍_LOCATION-GANDHIDHAM_GUJARAT_🇮🇳-ffd93d?style=for-the-badge&labelColor=151000)
 ![Views](https://komarev.com/ghpvc/?username=Vishandeveloper29&label=PROFILE+VIEWS&color=c77dff&style=for-the-badge&labelColor=12001f)
 [![Followers](https://img.shields.io/github/followers/Vishandeveloper29?label=FOLLOWERS&style=for-the-badge&color=4d96ff&labelColor=00061a&logo=github)](https://github.com/Vishandeveloper29)
@@ -137,51 +155,24 @@
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs>
-    <linearGradient id="div1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#ff6b6b"/>
-      <stop offset="16%"  stop-color="#ffd93d"/>
-      <stop offset="33%"  stop-color="#6bcb77"/>
-      <stop offset="50%"  stop-color="#4d96ff"/>
-      <stop offset="66%"  stop-color="#c77dff"/>
-      <stop offset="83%"  stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#fb923c"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#div1)"/>
-  <rect y="5" width="900" height="1" rx="0.5" fill="url(#div1)" opacity="0.3"/>
-  <rect y="9" width="900" height="1" rx="0.5" fill="url(#div1)" opacity="0.15"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 1 — vishan.js HERO
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 1 — vishan.js ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
-    <linearGradient id="sec1bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0033"/>
-      <stop offset="50%"  stop-color="#001a33"/>
-      <stop offset="100%" stop-color="#1a0033"/>
+    <linearGradient id="s1bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0033"/><stop offset="50%" stop-color="#001a33"/><stop offset="100%" stop-color="#1a0033"/>
     </linearGradient>
-    <linearGradient id="sec1txt" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#c77dff"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#c77dff"/>
+    <linearGradient id="s1t" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c77dff"/><stop offset="50%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#c77dff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#sec1bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#sec1txt)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#sec1txt)" text-anchor="middle" letter-spacing="3">⚡  vishan.js  —  ● running</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#sec1txt)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s1bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s1t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s1t)" text-anchor="middle" letter-spacing="4">⚡  vishan.js  —  ● running</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s1t)"/>
 </svg>
 </div>
 
@@ -229,47 +220,31 @@ console.log("▶ Let's build something amazing!");
 
 <div align="center">
 
-|![](https://img.shields.io/badge/⚡_Fast_Delivery-3–5_days_avg-ffd93d?style=flat-square&labelColor=151000)|![](https://img.shields.io/badge/✨_GitHub_Repos-28%2B_Repos-4d96ff?style=flat-square&labelColor=00061a)|![](https://img.shields.io/badge/🏆_Satisfaction-100%25_Rated-6bcb77?style=flat-square&labelColor=0a150a)|![](https://img.shields.io/badge/🎓_Experience-1%2B_Year-c77dff?style=flat-square&labelColor=12001f)|![](https://img.shields.io/badge/🌍_Clients-Worldwide-f472b6?style=flat-square&labelColor=1a0a1a)|
+|![](https://img.shields.io/badge/⚡_Fast_Delivery-3–5_days_avg-ffd93d?style=flat-square&labelColor=151000)|![](https://img.shields.io/badge/✨_GitHub_Repos-28%2B_Repos-4d96ff?style=flat-square&labelColor=00061a)|![](https://img.shields.io/badge/🏆_Satisfaction-100%25_Rated-c8ff00?style=flat-square&labelColor=0a150a)|![](https://img.shields.io/badge/🎓_Experience-1%2B_Year-c77dff?style=flat-square&labelColor=12001f)|![](https://img.shields.io/badge/🌍_Clients-Worldwide-f472b6?style=flat-square&labelColor=1a0a1a)|
 |:---:|:---:|:---:|:---:|:---:|
 
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6bcb77"/><stop offset="25%" stop-color="#4d96ff"/><stop offset="50%" stop-color="#c77dff"/><stop offset="75%" stop-color="#f472b6"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d2)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d2)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 2 — ABOUT ME
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 2 — ABOUT ME ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s2bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0a00"/>
-      <stop offset="50%"  stop-color="#001a00"/>
-      <stop offset="100%" stop-color="#1a0a00"/>
+      <stop offset="0%" stop-color="#1a0a00"/><stop offset="50%" stop-color="#001a00"/><stop offset="100%" stop-color="#1a0a00"/>
     </linearGradient>
     <linearGradient id="s2t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#ff6b6b"/>
-      <stop offset="50%" stop-color="#ffd93d"/>
-      <stop offset="100%" stop-color="#6bcb77"/>
+      <stop offset="0%" stop-color="#ff6b6b"/><stop offset="50%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#c8ff00"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s2bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s2t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s2t)" text-anchor="middle" letter-spacing="3">🧑‍💻  WHO I AM</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s2t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s2bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s2t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s2t)" text-anchor="middle" letter-spacing="4">🧑‍💻  WHO I AM</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s2t)"/>
 </svg>
 </div>
 
@@ -312,40 +287,24 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffd93d"/><stop offset="33%" stop-color="#ff6b6b"/><stop offset="66%" stop-color="#c77dff"/><stop offset="100%" stop-color="#4d96ff"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d3)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d3)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 3 — SKILLS
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 3 — SKILLS ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s3bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#001a33"/>
-      <stop offset="50%"  stop-color="#1a0033"/>
-      <stop offset="100%" stop-color="#001a33"/>
+      <stop offset="0%" stop-color="#001a33"/><stop offset="50%" stop-color="#1a0033"/><stop offset="100%" stop-color="#001a33"/>
     </linearGradient>
     <linearGradient id="s3t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#4d96ff"/>
-      <stop offset="50%" stop-color="#c77dff"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+      <stop offset="0%" stop-color="#4d96ff"/><stop offset="50%" stop-color="#c77dff"/><stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s3bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s3t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s3t)" text-anchor="middle" letter-spacing="3">🛠️  SKILLS &amp; TOOLS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s3t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s3bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s3t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s3t)" text-anchor="middle" letter-spacing="4">🛠️  SKILLS &amp; TOOLS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s3t)"/>
 </svg>
 </div>
 
@@ -367,7 +326,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 ![GitHub](https://img.shields.io/badge/GitHub_Pages-Advanced-ffffff?style=flat-square&logo=github&logoColor=black&labelColor=0d0d0d)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-Advanced-38BDF8?style=flat-square&labelColor=001a22)
 ![Web Perf](https://img.shields.io/badge/Web_Performance-Advanced-ffd93d?style=flat-square&labelColor=1a1500)
-![SEO](https://img.shields.io/badge/SEO-Intermediate-6bcb77?style=flat-square&labelColor=001200)
+![SEO](https://img.shields.io/badge/SEO-Intermediate-c8ff00?style=flat-square&labelColor=001200)
 
 ### 🚀 Currently Learning
 ![React](https://img.shields.io/badge/React.js-Learning_🌱-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=001a1f)
@@ -380,106 +339,101 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <br/>
 
-<!-- COLORFUL SKILL BARS SVG -->
+<!-- COLORFUL SKILL BARS SVG — Enhanced -->
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" width="92%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="95%">
   <defs>
     <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="100%" stop-color="#ffd93d"/></linearGradient>
-    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6bcb77"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#00e5ff"/></linearGradient>
     <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4d96ff"/><stop offset="100%" stop-color="#c77dff"/></linearGradient>
     <linearGradient id="bar4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient>
-    <linearGradient id="bar5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#6bcb77"/></linearGradient>
+    <linearGradient id="bar5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#c8ff00"/></linearGradient>
     <linearGradient id="bar6" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c77dff"/><stop offset="100%" stop-color="#f472b6"/></linearGradient>
-    <linearGradient id="bar7" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#4d96ff"/></linearGradient>
-    <linearGradient id="bar8" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient>
+    <linearGradient id="bar7" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#4d96ff"/></linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c8ff00"/><stop offset="50%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#c8ff00"/></linearGradient>
+    <filter id="glowBar">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="860" height="330" rx="12" fill="#0d0221" opacity="0.9"/>
+  <rect width="880" height="360" rx="16" fill="#0d0221"/>
+  <rect width="880" height="5" rx="2" fill="url(#titleGrad)"/>
 
   <!-- Title -->
-  <text x="430" y="30" font-family="monospace" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle" letter-spacing="3">📊 SKILL PROFICIENCY</text>
+  <text x="440" y="35" font-family="monospace" font-size="15" font-weight="800" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="4" filter="url(#glowBar)">📊 SKILL PROFICIENCY</text>
 
-  <!-- Row helper: label, track x, track w=480, y, bar-grad, fill-w, pct -->
   <!-- HTML5 95% -->
-  <text x="155" y="62" font-family="monospace" font-size="12" fill="#ff6b6b" text-anchor="end" font-weight="600">HTML5</text>
-  <rect x="165" y="50" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="50" width="456" height="14" rx="7" fill="url(#bar1)"/>
-  <text x="660" y="62" font-family="monospace" font-size="11" fill="#ffd93d" font-weight="700">95% ⭐⭐⭐⭐⭐</text>
+  <text x="160" y="70" font-family="monospace" font-size="12.5" fill="#ff6b6b" text-anchor="end" font-weight="700">HTML5</text>
+  <rect x="170" y="57" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="57" width="466" height="16" rx="8" fill="url(#bar1)" filter="url(#glowBar)"/>
+  <text x="670" y="70" font-family="monospace" font-size="12" fill="#ffd93d" font-weight="800">95% ⭐⭐⭐⭐⭐</text>
 
   <!-- CSS3 90% -->
-  <text x="155" y="96" font-family="monospace" font-size="12" fill="#6bcb77" text-anchor="end" font-weight="600">CSS3</text>
-  <rect x="165" y="84" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="84" width="432" height="14" rx="7" fill="url(#bar2)"/>
-  <text x="660" y="96" font-family="monospace" font-size="11" fill="#6bcb77" font-weight="700">90% ⭐⭐⭐⭐⭐</text>
+  <text x="160" y="107" font-family="monospace" font-size="12.5" fill="#c8ff00" text-anchor="end" font-weight="700">CSS3</text>
+  <rect x="170" y="94" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="94" width="441" height="16" rx="8" fill="url(#bar2)" filter="url(#glowBar)"/>
+  <text x="670" y="107" font-family="monospace" font-size="12" fill="#c8ff00" font-weight="800">90% ⭐⭐⭐⭐⭐</text>
 
   <!-- Responsive 90% -->
-  <text x="155" y="130" font-family="monospace" font-size="12" fill="#38BDF8" text-anchor="end" font-weight="600">Responsive UI</text>
-  <rect x="165" y="118" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="118" width="432" height="14" rx="7" fill="url(#bar3)"/>
-  <text x="660" y="130" font-family="monospace" font-size="11" fill="#4d96ff" font-weight="700">90% ⭐⭐⭐⭐⭐</text>
+  <text x="160" y="144" font-family="monospace" font-size="12.5" fill="#00e5ff" text-anchor="end" font-weight="700">Responsive UI</text>
+  <rect x="170" y="131" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="131" width="441" height="16" rx="8" fill="url(#bar3)" filter="url(#glowBar)"/>
+  <text x="670" y="144" font-family="monospace" font-size="12" fill="#4d96ff" font-weight="800">90% ⭐⭐⭐⭐⭐</text>
 
   <!-- CSS Animations 85% -->
-  <text x="155" y="164" font-family="monospace" font-size="12" fill="#f472b6" text-anchor="end" font-weight="600">CSS Animations</text>
-  <rect x="165" y="152" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="152" width="408" height="14" rx="7" fill="url(#bar4)"/>
-  <text x="660" y="164" font-family="monospace" font-size="11" fill="#f472b6" font-weight="700">85% ⭐⭐⭐⭐⭐</text>
+  <text x="160" y="181" font-family="monospace" font-size="12.5" fill="#f472b6" text-anchor="end" font-weight="700">CSS Animations</text>
+  <rect x="170" y="168" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="168" width="417" height="16" rx="8" fill="url(#bar4)" filter="url(#glowBar)"/>
+  <text x="670" y="181" font-family="monospace" font-size="12" fill="#f472b6" font-weight="800">85% ⭐⭐⭐⭐⭐</text>
 
   <!-- Git 80% -->
-  <text x="155" y="198" font-family="monospace" font-size="12" fill="#ffd93d" text-anchor="end" font-weight="600">Git &amp; GitHub</text>
-  <rect x="165" y="186" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="186" width="384" height="14" rx="7" fill="url(#bar5)"/>
-  <text x="660" y="198" font-family="monospace" font-size="11" fill="#ffd93d" font-weight="700">80% ⭐⭐⭐⭐</text>
+  <text x="160" y="218" font-family="monospace" font-size="12.5" fill="#ffd93d" text-anchor="end" font-weight="700">Git &amp; GitHub</text>
+  <rect x="170" y="205" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="205" width="392" height="16" rx="8" fill="url(#bar5)" filter="url(#glowBar)"/>
+  <text x="670" y="218" font-family="monospace" font-size="12" fill="#ffd93d" font-weight="800">80% ⭐⭐⭐⭐</text>
 
   <!-- Figma 78% -->
-  <text x="155" y="232" font-family="monospace" font-size="12" fill="#c77dff" text-anchor="end" font-weight="600">Figma / UI·UX</text>
-  <rect x="165" y="220" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="220" width="374" height="14" rx="7" fill="url(#bar6)"/>
-  <text x="660" y="232" font-family="monospace" font-size="11" fill="#c77dff" font-weight="700">78% ⭐⭐⭐⭐</text>
+  <text x="160" y="255" font-family="monospace" font-size="12.5" fill="#c77dff" text-anchor="end" font-weight="700">Figma / UI·UX</text>
+  <rect x="170" y="242" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="242" width="382" height="16" rx="8" fill="url(#bar6)" filter="url(#glowBar)"/>
+  <text x="670" y="255" font-family="monospace" font-size="12" fill="#c77dff" font-weight="800">78% ⭐⭐⭐⭐</text>
 
   <!-- JS 65% -->
-  <text x="155" y="266" font-family="monospace" font-size="12" fill="#38BDF8" text-anchor="end" font-weight="600">JavaScript ES6+</text>
-  <rect x="165" y="254" width="480" height="14" rx="7" fill="#1e1e2e"/>
-  <rect x="165" y="254" width="312" height="14" rx="7" fill="url(#bar7)"/>
-  <text x="660" y="266" font-family="monospace" font-size="11" fill="#38BDF8" font-weight="700">65% ⭐⭐⭐ 🌱</text>
+  <text x="160" y="292" font-family="monospace" font-size="12.5" fill="#00e5ff" text-anchor="end" font-weight="700">JavaScript ES6+</text>
+  <rect x="170" y="279" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="279" width="319" height="16" rx="8" fill="url(#bar7)" filter="url(#glowBar)"/>
+  <text x="670" y="292" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="800">65% ⭐⭐⭐ 🌱</text>
 
+  <!-- REST APIs 72% -->
+  <text x="160" y="329" font-family="monospace" font-size="12.5" fill="#fb923c" text-anchor="end" font-weight="700">REST APIs</text>
+  <rect x="170" y="316" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="316" width="353" height="16" rx="8" fill="url(#bar4)" filter="url(#glowBar)"/>
+  <text x="670" y="329" font-family="monospace" font-size="12" fill="#fb923c" font-weight="800">72% ⭐⭐⭐⭐</text>
+
+  <rect y="355" width="880" height="5" rx="2" fill="url(#titleGrad)"/>
 </svg>
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c77dff"/><stop offset="33%" stop-color="#f472b6"/><stop offset="66%" stop-color="#ff6b6b"/><stop offset="100%" stop-color="#ffd93d"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d4)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d4)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 4 — SERVICES
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 4 — SERVICES ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s4bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a1500"/>
-      <stop offset="50%"  stop-color="#001a00"/>
-      <stop offset="100%" stop-color="#1a1500"/>
+      <stop offset="0%" stop-color="#1a1500"/><stop offset="50%" stop-color="#001a00"/><stop offset="100%" stop-color="#1a1500"/>
     </linearGradient>
     <linearGradient id="s4t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#ffd93d"/>
-      <stop offset="50%" stop-color="#6bcb77"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="0%" stop-color="#ffd93d"/><stop offset="50%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#00e5ff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s4bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s4t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s4t)" text-anchor="middle" letter-spacing="3">💼  WHAT I OFFER — SERVICES</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s4t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s4bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s4t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s4t)" text-anchor="middle" letter-spacing="4">💼  WHAT I OFFER — SERVICES</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s4t)"/>
 </svg>
 </div>
 
@@ -493,48 +447,31 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 |🛒|**E-Commerce**|Full-featured frontends — product listings, cart, seamless checkout UX.|![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square) ![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logoColor=black)|**From ₹12,000**|
 |⚡|**Web Apps**|Interactive apps powered by REST APIs — weather, currency, GitHub explorers.|![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logoColor=black) ![API](https://img.shields.io/badge/REST_API-06B6D4?style=flat-square)|**From ₹10,000**|
 |🎨|**UI/UX Design**|Figma-based UI with design systems, component libraries, dev handoffs.|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)|**From ₹5,000**|
-|📱|**Responsive Design**|Mobile-first websites flawless on every device. Fluid grids & breakpoints.|![Mobile](https://img.shields.io/badge/Mobile_First-6bcb77?style=flat-square)|**Included**|
-|⚙️|**Performance Audit**|Core Web Vitals, minified code, lazy loading & image optimisation.|![Vitals](https://img.shields.io/badge/Web_Vitals-ffd93d?style=flat-square)|**From ₹5,000**|
+|📱|**Responsive Design**|Mobile-first websites flawless on every device. Fluid grids & breakpoints.|![Mobile](https://img.shields.io/badge/Mobile_First-c8ff00?style=flat-square&labelColor=001200)|**Included**|
+|⚙️|**Performance Audit**|Core Web Vitals, minified code, lazy loading & image optimisation.|![Vitals](https://img.shields.io/badge/Web_Vitals-ffd93d?style=flat-square&labelColor=151000)|**From ₹5,000**|
 
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="33%" stop-color="#6bcb77"/><stop offset="66%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d5)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d5)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 5 — PROJECTS
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 5 — PROJECTS ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s5bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0020"/>
-      <stop offset="50%"  stop-color="#00101a"/>
-      <stop offset="100%" stop-color="#1a0020"/>
+      <stop offset="0%" stop-color="#1a0020"/><stop offset="50%" stop-color="#00101a"/><stop offset="100%" stop-color="#1a0020"/>
     </linearGradient>
     <linearGradient id="s5t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#ff6b6b"/>
-      <stop offset="33%" stop-color="#ffd93d"/>
-      <stop offset="66%" stop-color="#6bcb77"/>
-      <stop offset="100%" stop-color="#4d96ff"/>
+      <stop offset="0%" stop-color="#ff6b6b"/><stop offset="33%" stop-color="#ffd93d"/><stop offset="66%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#00e5ff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s5bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s5t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s5t)" text-anchor="middle" letter-spacing="3">🚀  FEATURED PROJECTS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s5t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s5bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s5t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s5t)" text-anchor="middle" letter-spacing="4">🚀  FEATURED PROJECTS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s5t)"/>
 </svg>
 </div>
 
@@ -543,7 +480,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 <div align="center">
 
 [![ApexDeck](https://github-readme-stats.vercel.app/api/pin/?username=Vishandeveloper29&repo=Apex-Deck-Design&theme=tokyonight&hide_border=true&border_radius=15&title_color=ff6b6b&icon_color=ffd93d&text_color=ffffff&bg_color=0d0221)](https://github.com/Vishandeveloper29/Apex-Deck-Design)&nbsp;&nbsp;
-[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Vishandeveloper29&repo=Vishandeveloper&theme=tokyonight&hide_border=true&border_radius=15&title_color=6bcb77&icon_color=38BDF8&text_color=ffffff&bg_color=0d0221)](https://github.com/Vishandeveloper29/Vishandeveloper)
+[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Vishandeveloper29&repo=Vishandeveloper&theme=tokyonight&hide_border=true&border_radius=15&title_color=c8ff00&icon_color=00e5ff&text_color=ffffff&bg_color=0d0221)](https://github.com/Vishandeveloper29/Vishandeveloper)
 
 </div>
 
@@ -557,7 +494,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 ---
 
-> ![](https://img.shields.io/badge/🛒_LK_Mart-E--Commerce-6bcb77?style=flat-square&labelColor=0a1a00) ![](https://img.shields.io/badge/Frontend-22c55e?style=flat-square)
+> ![](https://img.shields.io/badge/🛒_LK_Mart-E--Commerce-c8ff00?style=flat-square&labelColor=0a1a00) ![](https://img.shields.io/badge/Frontend-22c55e?style=flat-square)
 >
 > Full-featured e-commerce frontend with product listings, cart, and seamless shopping UX.
 >
@@ -565,7 +502,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 ---
 
-> ![](https://img.shields.io/badge/💱_Currency_Converter-Web_API-38BDF8?style=flat-square&labelColor=001a22) ![Finance](https://img.shields.io/badge/Finance-ffd93d?style=flat-square)
+> ![](https://img.shields.io/badge/💱_Currency_Converter-Web_API-00e5ff?style=flat-square&labelColor=001a22) ![Finance](https://img.shields.io/badge/Finance-ffd93d?style=flat-square)
 >
 > Real-time currency conversion. Supports 150+ world currencies with live exchange data.
 >
@@ -573,7 +510,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 ---
 
-> ![](https://img.shields.io/badge/⛅_Weather_App-Real--time_API-4d96ff?style=flat-square&labelColor=00061a) ![Live](https://img.shields.io/badge/Live-6bcb77?style=flat-square)
+> ![](https://img.shields.io/badge/⛅_Weather_App-Real--time_API-4d96ff?style=flat-square&labelColor=00061a) ![Live](https://img.shields.io/badge/Live-c8ff00?style=flat-square)
 >
 > Live weather using OpenWeatherMap API with location search and animated weather icons.
 >
@@ -622,61 +559,45 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d6" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="25%" stop-color="#ffd93d"/><stop offset="50%" stop-color="#6bcb77"/><stop offset="75%" stop-color="#4d96ff"/><stop offset="100%" stop-color="#c77dff"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d6)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d6)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 6 — GITHUB STATS
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 6 — GITHUB STATS ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s6bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0a1500"/>
-      <stop offset="50%"  stop-color="#001a22"/>
-      <stop offset="100%" stop-color="#0a1500"/>
+      <stop offset="0%" stop-color="#0a1500"/><stop offset="50%" stop-color="#001a22"/><stop offset="100%" stop-color="#0a1500"/>
     </linearGradient>
     <linearGradient id="s6t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#6bcb77"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#4d96ff"/>
+      <stop offset="0%" stop-color="#c8ff00"/><stop offset="50%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#4d96ff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s6bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s6t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s6t)" text-anchor="middle" letter-spacing="3">📊  GITHUB STATS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s6t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s6bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s6t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s6t)" text-anchor="middle" letter-spacing="4">📊  GITHUB STATS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s6t)"/>
 </svg>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Vishandeveloper29&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true&title_color=ff6b6b&icon_color=ffd93d&text_color=ffffff&bg_color=0d0221" height="190"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Vishandeveloper29&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true&title_color=c8ff00&icon_color=ffd93d&text_color=ffffff&bg_color=0d0221" height="190"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishandeveloper29&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=8&title_color=6bcb77&text_color=ffffff&bg_color=0d0221" height="190"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishandeveloper29&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=8&title_color=00e5ff&text_color=ffffff&bg_color=0d0221" height="190"/>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=Vishandeveloper29&theme=tokyonight&hide_border=true&border_radius=15&fire=ff6b6b&ring=ffd93d&currStreakLabel=6bcb77&sideLabels=c77dff&dates=94a3b8" height="210"/>
+<img src="https://streak-stats.demolab.com?user=Vishandeveloper29&theme=tokyonight&hide_border=true&border_radius=15&fire=ff6b6b&ring=c8ff00&currStreakLabel=00e5ff&sideLabels=c77dff&dates=94a3b8" height="210"/>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishandeveloper29&theme=tokyo-night&hide_border=true&area=true&custom_title=🔥%20Vishan's%20Contribution%20Graph&area_color=ff6b6b&line=ffd93d&point=6bcb77&color=ffffff&bg_color=0d0221" width="97%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishandeveloper29&theme=tokyo-night&hide_border=true&area=true&custom_title=🔥%20Vishan's%20Contribution%20Graph&area_color=c8ff00&line=ffd93d&point=00e5ff&color=ffffff&bg_color=0d0221" width="97%"/>
 </div>
 
 <br/>
@@ -687,40 +608,24 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d7" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4d96ff"/><stop offset="33%" stop-color="#c77dff"/><stop offset="66%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d7)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d7)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 7 — PROCESS
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 7 — PROCESS ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s7bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0010"/>
-      <stop offset="50%"  stop-color="#001519"/>
-      <stop offset="100%" stop-color="#1a0010"/>
+      <stop offset="0%" stop-color="#1a0010"/><stop offset="50%" stop-color="#001519"/><stop offset="100%" stop-color="#1a0010"/>
     </linearGradient>
     <linearGradient id="s7t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#f472b6"/>
-      <stop offset="50%" stop-color="#fb923c"/>
-      <stop offset="100%" stop-color="#ffd93d"/>
+      <stop offset="0%" stop-color="#f472b6"/><stop offset="50%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ffd93d"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s7bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s7t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s7t)" text-anchor="middle" letter-spacing="3">⚙️  HOW I WORK — MY PROCESS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s7t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s7bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s7t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s7t)" text-anchor="middle" letter-spacing="4">⚙️  HOW I WORK — MY PROCESS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s7t)"/>
 </svg>
 </div>
 
@@ -728,7 +633,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <div align="center">
 
-|![](https://img.shields.io/badge/01-DISCOVER-ff6b6b?style=for-the-badge&labelColor=1a0000)|![](https://img.shields.io/badge/02-DESIGN-ffd93d?style=for-the-badge&labelColor=151000)|![](https://img.shields.io/badge/03-DEVELOP-6bcb77?style=for-the-badge&labelColor=0a1500)|![](https://img.shields.io/badge/04-DELIVER-4d96ff?style=for-the-badge&labelColor=00061a)|
+|![](https://img.shields.io/badge/01-DISCOVER-ff6b6b?style=for-the-badge&labelColor=1a0000)|![](https://img.shields.io/badge/02-DESIGN-ffd93d?style=for-the-badge&labelColor=151000)|![](https://img.shields.io/badge/03-DEVELOP-c8ff00?style=for-the-badge&labelColor=0a1500)|![](https://img.shields.io/badge/04-DELIVER-00e5ff?style=for-the-badge&labelColor=001a22)|
 |:---:|:---:|:---:|:---:|
 |🔭|🎨|💻|🚀|
 |Deep-dive into your goals, audience & vision through focused conversation and research.|Wireframes & Figma prototypes that define the visual direction before any code is written.|Clean, semantic code with pixel-perfect implementation, animations & cross-device testing.|Final handoff with docs, optimised assets, and **7-day post-delivery support** included.|
@@ -739,61 +644,47 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 <br/>
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 48" width="92%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 52" width="95%">
   <defs>
     <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ff6b6b"/>
       <stop offset="33%"  stop-color="#ffd93d"/>
-      <stop offset="66%"  stop-color="#6bcb77"/>
-      <stop offset="100%" stop-color="#4d96ff"/>
+      <stop offset="66%"  stop-color="#c8ff00"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
     </linearGradient>
   </defs>
-  <rect width="860" height="48" rx="8" fill="#0d0221" opacity="0.8"/>
-  <text x="430" y="20" font-family="monospace" font-size="12" fill="url(#arrowGrad)" text-anchor="middle" font-weight="700">
+  <rect width="880" height="52" rx="10" fill="#0d0221"/>
+  <rect width="880" height="4" rx="2" fill="url(#arrowGrad)"/>
+  <text x="440" y="24" font-family="monospace" font-size="13" fill="url(#arrowGrad)" text-anchor="middle" font-weight="800" letter-spacing="1">
     DISCOVER ──────► DESIGN ──────► DEVELOP ──────► DELIVER
   </text>
-  <text x="430" y="38" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
+  <text x="440" y="42" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
     Total Timeline:  3–5 Days Fast Delivery  ⚡  |  100% On Time  🏆
   </text>
+  <rect y="48" width="880" height="4" rx="2" fill="url(#arrowGrad)"/>
 </svg>
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d8" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fb923c"/><stop offset="33%" stop-color="#ffd93d"/><stop offset="66%" stop-color="#6bcb77"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d8)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d8)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 8 — JOURNEY
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 8 — JOURNEY ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s8bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#001a00"/>
-      <stop offset="50%"  stop-color="#1a1500"/>
-      <stop offset="100%" stop-color="#001a00"/>
+      <stop offset="0%" stop-color="#001a00"/><stop offset="50%" stop-color="#1a1500"/><stop offset="100%" stop-color="#001a00"/>
     </linearGradient>
     <linearGradient id="s8t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#6bcb77"/>
-      <stop offset="50%" stop-color="#ffd93d"/>
-      <stop offset="100%" stop-color="#fb923c"/>
+      <stop offset="0%" stop-color="#c8ff00"/><stop offset="50%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#fb923c"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s8bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s8t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s8t)" text-anchor="middle" letter-spacing="3">🕐  JOURNEY &amp; EXPERIENCE</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s8t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s8bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s8t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s8t)" text-anchor="middle" letter-spacing="4">🕐  JOURNEY &amp; EXPERIENCE</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s8t)"/>
 </svg>
 </div>
 
@@ -803,51 +694,34 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 |📅|🏆 Milestone|📖 Story|🏷️|
 |:---:|:---:|:---|:---:|
-|**Early 2025**|![](https://img.shields.io/badge/🌱_Started_Web_Dev-Self--Taught-6bcb77?style=flat-square&labelColor=001200)|Began with HTML and CSS fundamentals. Built first static pages, discovered a passion for beautiful web experiences.|![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square)|
-|**Mid 2025**|![](https://img.shields.io/badge/⚡_JS_&_DOM_Mastery-Self--Taught-ffd93d?style=flat-square&labelColor=151000)|Dived deep into JavaScript — DOM manipulation, ES6+, async patterns, and first API integrations.|![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logoColor=black) ![APIs](https://img.shields.io/badge/APIs-38BDF8?style=flat-square) ![ES6+](https://img.shields.io/badge/ES6+-22c55e?style=flat-square)|
+|**Early 2025**|![](https://img.shields.io/badge/🌱_Started_Web_Dev-Self--Taught-c8ff00?style=flat-square&labelColor=001200)|Began with HTML and CSS fundamentals. Built first static pages, discovered a passion for beautiful web experiences.|![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square)|
+|**Mid 2025**|![](https://img.shields.io/badge/⚡_JS_&_DOM_Mastery-Self--Taught-ffd93d?style=flat-square&labelColor=151000)|Dived deep into JavaScript — DOM manipulation, ES6+, async patterns, and first API integrations.|![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logoColor=black) ![APIs](https://img.shields.io/badge/APIs-00e5ff?style=flat-square) ![ES6+](https://img.shields.io/badge/ES6+-22c55e?style=flat-square)|
 |**Late 2025**|![](https://img.shields.io/badge/💰_First_Freelance-Remote-ff6b6b?style=flat-square&labelColor=1a0000)|Landed first clients — landing pages, e-commerce fronts, portfolio sites. Learned deadlines and iterative design.|![Freelance](https://img.shields.io/badge/Freelance-f59e0b?style=flat-square) ![E-Comm](https://img.shields.io/badge/E--Commerce-22c55e?style=flat-square)|
 |**Late 2025**|![](https://img.shields.io/badge/🎨_Figma_&_UI/UX-Design_Systems-c77dff?style=flat-square&labelColor=0d001a)|Expanded into Figma for design systems, prototypes, and thinking like a designer while coding like an engineer.|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square) ![UI/UX](https://img.shields.io/badge/UI%2FUX-a855f7?style=flat-square)|
-|**🟢 2026**|![](https://img.shields.io/badge/🚀_Advanced_&_React-OPEN_TO_WORK-4d96ff?style=flat-square&labelColor=00061a)|Building complex projects, expanding 28+ repos, learning React, seeking freelance and collaboration opportunities.|![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![OpenToWork](https://img.shields.io/badge/Open_To_Work-22c55e?style=flat-square)|
+|**🟢 2026**|![](https://img.shields.io/badge/🚀_Advanced_&_React-OPEN_TO_WORK-00e5ff?style=flat-square&labelColor=001a22)|Building complex projects, expanding 28+ repos, learning React, seeking freelance and collaboration opportunities.|![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![OpenToWork](https://img.shields.io/badge/Open_To_Work-c8ff00?style=flat-square)|
 
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d9" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6bcb77"/><stop offset="33%" stop-color="#ffd93d"/><stop offset="66%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d9)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d9)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 9 — PRICING
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 9 — PRICING ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s9bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a1000"/>
-      <stop offset="50%"  stop-color="#001500"/>
-      <stop offset="100%" stop-color="#1a1000"/>
+      <stop offset="0%" stop-color="#1a1000"/><stop offset="50%" stop-color="#001500"/><stop offset="100%" stop-color="#1a1000"/>
     </linearGradient>
     <linearGradient id="s9t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#ffd93d"/>
-      <stop offset="33%" stop-color="#fb923c"/>
-      <stop offset="66%" stop-color="#ff6b6b"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+      <stop offset="0%" stop-color="#ffd93d"/><stop offset="33%" stop-color="#fb923c"/><stop offset="66%" stop-color="#ff6b6b"/><stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s9bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s9t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s9t)" text-anchor="middle" letter-spacing="3">💰  TRANSPARENT PRICING</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s9t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s9bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s9t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s9t)" text-anchor="middle" letter-spacing="4">💰  TRANSPARENT PRICING</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s9t)"/>
 </svg>
 </div>
 
@@ -861,7 +735,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 |🥉 **STARTER**|🥇 **PRO** ⭐|💎 **PREMIUM**|
 |:---:|:---:|:---:|
-|![](https://img.shields.io/badge/₹8%2C000-per_project-6bcb77?style=for-the-badge&labelColor=001200)|![](https://img.shields.io/badge/₹25%2C000-per_project-ffd93d?style=for-the-badge&labelColor=151000)|![](https://img.shields.io/badge/₹35%2C000-per_project-c77dff?style=for-the-badge&labelColor=0d001a)|
+|![](https://img.shields.io/badge/₹8%2C000-per_project-c8ff00?style=for-the-badge&labelColor=001200)|![](https://img.shields.io/badge/₹25%2C000-per_project-ffd93d?style=for-the-badge&labelColor=151000)|![](https://img.shields.io/badge/₹35%2C000-per_project-c77dff?style=for-the-badge&labelColor=0d001a)|
 |*Landing pages & portfolios*|*Businesses & e-commerce*|*Full-scale web apps*|
 |✅ 1–3 page website|✅ Up to 8 pages|✅ Unlimited pages|
 |✅ Fully responsive|✅ Fully responsive|✅ Full web application|
@@ -870,7 +744,7 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 |✅ 3-day delivery ⚡|✅ Custom animations|✅ Performance audit|
 |❌ E-commerce|✅ 5-day delivery ⚡|✅ 14-day support|
 |❌ API integrations|✅ Figma design file|✅ Full design system|
-|[![Start](https://img.shields.io/badge/Get_Started-6bcb77?style=flat-square)](mailto:rabarivishan2@gmail.com)|[![Start](https://img.shields.io/badge/Get_Started-ffd93d?style=flat-square)](mailto:rabarivishan2@gmail.com)|[![Start](https://img.shields.io/badge/Get_Started-c77dff?style=flat-square)](mailto:rabarivishan2@gmail.com)|
+|[![Start](https://img.shields.io/badge/Get_Started-c8ff00?style=flat-square&labelColor=001200)](mailto:rabarivishan2@gmail.com)|[![Start](https://img.shields.io/badge/Get_Started-ffd93d?style=flat-square&labelColor=151000)](mailto:rabarivishan2@gmail.com)|[![Start](https://img.shields.io/badge/Get_Started-c77dff?style=flat-square&labelColor=0d001a)](mailto:rabarivishan2@gmail.com)|
 
 </div>
 
@@ -880,40 +754,24 @@ Currently deepening my **JavaScript** expertise and learning **React**, I'm pass
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d10" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f472b6"/><stop offset="33%" stop-color="#c77dff"/><stop offset="66%" stop-color="#4d96ff"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d10)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d10)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 10 — ROADMAP
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 10 — ROADMAP ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s10bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#001a22"/>
-      <stop offset="50%"  stop-color="#1a0033"/>
-      <stop offset="100%" stop-color="#001a22"/>
+      <stop offset="0%" stop-color="#001a22"/><stop offset="50%" stop-color="#1a0033"/><stop offset="100%" stop-color="#001a22"/>
     </linearGradient>
     <linearGradient id="s10t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#4d96ff"/>
-      <stop offset="100%" stop-color="#c77dff"/>
+      <stop offset="0%" stop-color="#00e5ff"/><stop offset="50%" stop-color="#4d96ff"/><stop offset="100%" stop-color="#c77dff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s10bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s10t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s10t)" text-anchor="middle" letter-spacing="3">🌱  ROADMAP &amp; LEARNING</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s10t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s10bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s10t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s10t)" text-anchor="middle" letter-spacing="4">🌱  ROADMAP &amp; LEARNING</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s10t)"/>
 </svg>
 </div>
 
@@ -941,50 +799,34 @@ const roadmap = {
 
 |✅ **Completed**|🔄 **In Progress**|🎯 **Next Up**|🔮 **Future**|
 |:---:|:---:|:---:|:---:|
-|![](https://img.shields.io/badge/HTML5-done-6bcb77?style=flat-square)|![](https://img.shields.io/badge/JavaScript_ES6+-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/React.js-next-4d96ff?style=flat-square)|![](https://img.shields.io/badge/Next.js-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/CSS3_&_Animations-done-6bcb77?style=flat-square)|![](https://img.shields.io/badge/DOM_Manipulation-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Node.js-next-4d96ff?style=flat-square)|![](https://img.shields.io/badge/MongoDB-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/Responsive_Design-done-6bcb77?style=flat-square)|![](https://img.shields.io/badge/REST_APIs-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/GSAP_Animations-next-4d96ff?style=flat-square)|![](https://img.shields.io/badge/TypeScript-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/Figma_&_UI/UX-done-6bcb77?style=flat-square)|![](https://img.shields.io/badge/Async_/_Await-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Tailwind_CSS-next-4d96ff?style=flat-square)|![](https://img.shields.io/badge/GraphQL-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/GitHub_Pages-done-6bcb77?style=flat-square)|![](https://img.shields.io/badge/Git_Advanced-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Core_Web_Vitals-next-4d96ff?style=flat-square)|![](https://img.shields.io/badge/Docker-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/HTML5-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/JavaScript_ES6+-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/React.js-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/Next.js-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/CSS3_&_Animations-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/DOM_Manipulation-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Node.js-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/MongoDB-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/Responsive_Design-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/REST_APIs-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/GSAP_Animations-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/TypeScript-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/Figma_&_UI/UX-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Async_/_Await-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Tailwind_CSS-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/GraphQL-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/GitHub_Pages-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Git_Advanced-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Core_Web_Vitals-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/Docker-future-c77dff?style=flat-square)|
 
 </div>
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d11" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="25%" stop-color="#4d96ff"/><stop offset="50%" stop-color="#c77dff"/><stop offset="75%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d11)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d11)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 11 — TESTIMONIALS
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 11 — TESTIMONIALS ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s11bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0a00"/>
-      <stop offset="50%"  stop-color="#1a001a"/>
-      <stop offset="100%" stop-color="#1a0a00"/>
+      <stop offset="0%" stop-color="#1a0a00"/><stop offset="50%" stop-color="#1a001a"/><stop offset="100%" stop-color="#1a0a00"/>
     </linearGradient>
     <linearGradient id="s11t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#fb923c"/>
-      <stop offset="50%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#c77dff"/>
+      <stop offset="0%" stop-color="#fb923c"/><stop offset="50%" stop-color="#f472b6"/><stop offset="100%" stop-color="#c77dff"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s11bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s11t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s11t)" text-anchor="middle" letter-spacing="3">⭐  WHAT CLIENTS SAY</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s11t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s11bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s11t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s11t)" text-anchor="middle" letter-spacing="4">⭐  WHAT CLIENTS SAY</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s11t)"/>
 </svg>
 </div>
 
@@ -1010,14 +852,14 @@ const roadmap = {
 <tr>
 <td width="50%">
 
-> ![](https://img.shields.io/badge/★★★★★-6bcb77?style=flat-square) &nbsp; **Ravi Mehta** · *Freelance Photographer*
+> ![](https://img.shields.io/badge/★★★★★-c8ff00?style=flat-square) &nbsp; **Ravi Mehta** · *Freelance Photographer*
 >
 > *"Vishan is a rare talent — he thinks like a designer but codes like an engineer. The portfolio website he built for me gets compliments from every client I show it to. Highly recommend!"*
 
 </td>
 <td width="50%">
 
-> ![](https://img.shields.io/badge/★★★★★-4d96ff?style=flat-square) &nbsp; **Priya Desai** · *Brand Manager*
+> ![](https://img.shields.io/badge/★★★★★-00e5ff?style=flat-square) &nbsp; **Priya Desai** · *Brand Manager*
 >
 > *"Working with Vishan was a seamless experience from start to finish. He understood our brand and translated it into a website that our customers absolutely love. Fast, professional, talented."*
 
@@ -1027,40 +869,24 @@ const roadmap = {
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d12" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fb923c"/><stop offset="33%" stop-color="#f472b6"/><stop offset="66%" stop-color="#c77dff"/><stop offset="100%" stop-color="#4d96ff"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d12)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d12)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 12 — BLOG
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 12 — BLOG ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s12bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#001a1a"/>
-      <stop offset="50%"  stop-color="#0a1500"/>
-      <stop offset="100%" stop-color="#001a1a"/>
+      <stop offset="0%" stop-color="#001a1a"/><stop offset="50%" stop-color="#0a1500"/><stop offset="100%" stop-color="#001a1a"/>
     </linearGradient>
     <linearGradient id="s12t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#6bcb77"/>
-      <stop offset="100%" stop-color="#ffd93d"/>
+      <stop offset="0%" stop-color="#00e5ff"/><stop offset="50%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#ffd93d"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s12bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s12t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s12t)" text-anchor="middle" letter-spacing="3">📝  BLOG &amp; DEV NOTES</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s12t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s12bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s12t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s12t)" text-anchor="middle" letter-spacing="4">📝  BLOG &amp; DEV NOTES</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s12t)"/>
 </svg>
 </div>
 
@@ -1069,45 +895,29 @@ const roadmap = {
 |📅|🏷️ Tags|📖 Article|
 |:---:|:---:|:---|
 |Jan 2025|![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![Animations](https://img.shields.io/badge/Animations-c77dff?style=flat-square)|**[5 CSS Tricks I Use on Every Project](https://vishanrabari.vercel.app#blog)** — From custom scroll bars to clip-path animations — CSS patterns that make UIs stand out.|
-|Dec 2025|![JS](https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=flat-square&logoColor=black) ![Storage](https://img.shields.io/badge/localStorage-38BDF8?style=flat-square)|**[Building a Cart Without Any Framework](https://vishanrabari.vercel.app#blog)** — A fully functional shopping cart with localStorage, vanilla JS, zero dependencies.|
-|Nov 2025|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Workflow](https://img.shields.io/badge/Workflow-6bcb77?style=flat-square)|**[Why I Started Using Figma Before Coding](https://vishanrabari.vercel.app#blog)** — The shift that tripled my speed — designing first means fewer rewrites & happier clients.|
+|Dec 2025|![JS](https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=flat-square&logoColor=black) ![Storage](https://img.shields.io/badge/localStorage-00e5ff?style=flat-square)|**[Building a Cart Without Any Framework](https://vishanrabari.vercel.app#blog)** — A fully functional shopping cart with localStorage, vanilla JS, zero dependencies.|
+|Nov 2025|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Workflow](https://img.shields.io/badge/Workflow-c8ff00?style=flat-square)|**[Why I Started Using Figma Before Coding](https://vishanrabari.vercel.app#blog)** — The shift that tripled my speed — designing first means fewer rewrites & happier clients.|
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d13" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="33%" stop-color="#6bcb77"/><stop offset="66%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d13)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d13)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 13 — FAQ
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 13 — FAQ ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s13bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a0020"/>
-      <stop offset="50%"  stop-color="#001a22"/>
-      <stop offset="100%" stop-color="#1a0020"/>
+      <stop offset="0%" stop-color="#1a0020"/><stop offset="50%" stop-color="#001a22"/><stop offset="100%" stop-color="#1a0020"/>
     </linearGradient>
     <linearGradient id="s13t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#c77dff"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#6bcb77"/>
+      <stop offset="0%" stop-color="#c77dff"/><stop offset="50%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#c8ff00"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s13bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s13t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s13t)" text-anchor="middle" letter-spacing="3">❓  FAQ — COMMON QUESTIONS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s13t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s13bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s13t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s13t)" text-anchor="middle" letter-spacing="4">❓  FAQ — COMMON QUESTIONS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s13t)"/>
 </svg>
 </div>
 
@@ -1150,41 +960,24 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
 
 <br/>
 
-<!-- RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="d14" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c77dff"/><stop offset="25%" stop-color="#f472b6"/><stop offset="50%" stop-color="#fb923c"/><stop offset="75%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#6bcb77"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#d14)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#d14)" opacity="0.25"/>
-</svg>
-</div>
-
 ---
 
-<!-- ██████████████████████████████████████████████████████████
-     SECTION 14 — CONTACT
-     ██████████████████████████████████████████████████████████ -->
+<!-- ██████ SECTION 14 — CONTACT ██████ -->
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%">
   <defs>
     <linearGradient id="s14bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#00101a"/>
-      <stop offset="50%"  stop-color="#1a0010"/>
-      <stop offset="100%" stop-color="#00101a"/>
+      <stop offset="0%" stop-color="#00101a"/><stop offset="50%" stop-color="#1a0010"/><stop offset="100%" stop-color="#00101a"/>
     </linearGradient>
     <linearGradient id="s14t" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#4d96ff"/>
-      <stop offset="33%" stop-color="#c77dff"/>
-      <stop offset="66%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#ff6b6b"/>
+      <stop offset="0%" stop-color="#4d96ff"/><stop offset="33%" stop-color="#c77dff"/><stop offset="66%" stop-color="#f472b6"/><stop offset="100%" stop-color="#ff6b6b"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="52" rx="10" fill="url(#s14bg)"/>
-  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#s14t)"/>
-  <text x="450" y="32" font-family="monospace" font-size="20" font-weight="800"
-        fill="url(#s14t)" text-anchor="middle" letter-spacing="3">📬  LET'S BUILD GREAT THINGS</text>
-  <rect x="0" y="49" width="900" height="3" rx="1.5" fill="url(#s14t)"/>
+  <rect width="900" height="56" rx="12" fill="url(#s14bg)"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#s14t)"/>
+  <text x="450" y="34" font-family="monospace" font-size="21" font-weight="800" fill="url(#s14t)" text-anchor="middle" letter-spacing="4">📬  LET'S BUILD GREAT THINGS</text>
+  <rect x="0" y="52" width="900" height="4" rx="2" fill="url(#s14t)"/>
 </svg>
 </div>
 
@@ -1199,10 +992,10 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
 
 [![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-ff6b6b?style=for-the-badge&labelColor=1a0000)](https://vishanrabari.vercel.app)
 [![Email](https://img.shields.io/badge/📧_Email_Me-ffd93d?style=for-the-badge&labelColor=151000)](mailto:rabarivishan2@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/💬_WhatsApp-6bcb77?style=for-the-badge&labelColor=001200)](https://wa.me/918141314836)
+[![WhatsApp](https://img.shields.io/badge/💬_WhatsApp-c8ff00?style=for-the-badge&labelColor=001200)](https://wa.me/918141314836)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-4d96ff?style=for-the-badge&labelColor=00061a)](https://www.linkedin.com/in/vishan-rabari-7634ab392)
 [![Instagram](https://img.shields.io/badge/📸_Instagram-f472b6?style=for-the-badge&labelColor=1a001a)](https://www.instagram.com/thevishandeveloper7)
-[![Facebook](https://img.shields.io/badge/📘_Facebook-38BDF8?style=for-the-badge&labelColor=001a22)](https://www.facebook.com/share/1hkuo3wwlq/)
+[![Facebook](https://img.shields.io/badge/📘_Facebook-00e5ff?style=for-the-badge&labelColor=001a22)](https://www.facebook.com/share/1hkuo3wwlq/)
 
 <br/>
 
@@ -1222,16 +1015,6 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
 
 <br/>
 
-<!-- FINAL RAINBOW DIVIDER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="100%">
-  <defs><linearGradient id="dfinal" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="16%" stop-color="#ffd93d"/><stop offset="33%" stop-color="#6bcb77"/><stop offset="50%" stop-color="#38BDF8"/><stop offset="66%" stop-color="#4d96ff"/><stop offset="83%" stop-color="#c77dff"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs>
-  <rect width="900" height="3" rx="1.5" fill="url(#dfinal)"/>
-  <rect y="6" width="900" height="1" rx="0.5" fill="url(#dfinal)" opacity="0.3"/>
-  <rect y="9" width="900" height="1" rx="0.5" fill="url(#dfinal)" opacity="0.1"/>
-</svg>
-</div>
-
 ---
 
 <!-- ░░░░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░░░░ -->
@@ -1239,7 +1022,7 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
 <br/>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&pause=900&color=FF6B9D&center=true&vCenter=true&width=800&lines=Thanks+for+visiting!+⭐+Star+my+repos!;Always+open+to+freelance+%26+collaborations+🤝;Code+is+not+just+logic+—+it's+Art+✨;Let's+connect+%26+build+something+amazing+🚀" alt="Footer Typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&pause=900&color=C8FF00&center=true&vCenter=true&width=800&lines=Thanks+for+visiting!+⭐+Star+my+repos!;Always+open+to+freelance+%26+collaborations+🤝;Code+is+not+just+logic+—+it's+Art+✨;Let's+connect+%26+build+something+amazing+🚀" alt="Footer Typing"/>
 </div>
 
 <br/>
@@ -1265,7 +1048,7 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
 
 <!-- FOOTER BANNER -->
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%">
   <defs>
     <linearGradient id="ftBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#04101f"/>
@@ -1274,32 +1057,31 @@ Yes! I offer <b>7–14 days</b> of free post-delivery support for bug fixes. Ong
     </linearGradient>
     <linearGradient id="ftRainbow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ff6b6b"/>
-      <stop offset="20%"  stop-color="#ffd93d"/>
-      <stop offset="40%"  stop-color="#6bcb77"/>
-      <stop offset="60%"  stop-color="#4d96ff"/>
-      <stop offset="80%"  stop-color="#c77dff"/>
+      <stop offset="16%"  stop-color="#ffd93d"/>
+      <stop offset="33%"  stop-color="#c8ff00"/>
+      <stop offset="50%"  stop-color="#00e5ff"/>
+      <stop offset="66%"  stop-color="#4d96ff"/>
+      <stop offset="83%"  stop-color="#c77dff"/>
       <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="900" height="120" fill="url(#ftBg)"/>
-  <!-- wave top -->
-  <path d="M0,30 Q225,5 450,28 Q675,50 900,22 L900,0 L0,0 Z" fill="#04101f" opacity="0.6"/>
+  <rect width="900" height="130" fill="url(#ftBg)"/>
+  <path d="M0,35 Q225,10 450,32 Q675,54 900,26 L900,0 L0,0 Z" fill="#04101f" opacity="0.6"/>
   <!-- particles -->
-  <circle cx="80"  cy="85" r="3" fill="#ff6b6b" opacity="0.7" filter="url(#glow2)"/>
-  <circle cx="200" cy="70" r="2" fill="#ffd93d" opacity="0.6" filter="url(#glow2)"/>
-  <circle cx="350" cy="95" r="2.5" fill="#6bcb77" opacity="0.6" filter="url(#glow2)"/>
-  <circle cx="550" cy="72" r="2" fill="#4d96ff" opacity="0.6" filter="url(#glow2)"/>
-  <circle cx="700" cy="90" r="3" fill="#c77dff" opacity="0.7" filter="url(#glow2)"/>
-  <circle cx="830" cy="75" r="2.5" fill="#f472b6" opacity="0.6" filter="url(#glow2)"/>
+  <circle cx="80"  cy="92" r="4" fill="#ff6b6b" opacity="0.8" filter="url(#glow3)"/>
+  <circle cx="200" cy="78" r="3" fill="#ffd93d" opacity="0.7" filter="url(#glow3)"/>
+  <circle cx="350" cy="102" r="3.5" fill="#c8ff00" opacity="0.7" filter="url(#glow3)"/>
+  <circle cx="550" cy="80" r="3" fill="#00e5ff" opacity="0.7" filter="url(#glow3)"/>
+  <circle cx="700" cy="98" r="4" fill="#c77dff" opacity="0.8" filter="url(#glow3)"/>
+  <circle cx="830" cy="82" r="3.5" fill="#f472b6" opacity="0.7" filter="url(#glow3)"/>
   <!-- text -->
-  <text x="450" y="68" font-family="monospace" font-size="24" font-weight="900"
-        fill="url(#ftRainbow)" text-anchor="middle" letter-spacing="4" filter="url(#glow2)">Let's Build Great Things! 🚀</text>
-  <text x="450" y="92" font-family="monospace" font-size="12" fill="#64748b" text-anchor="middle" letter-spacing="2">© 2025 Vishan Rabari — Built with passion in Gujarat, India</text>
-  <!-- bottom rainbow bar -->
-  <rect x="0" y="116" width="900" height="4" fill="url(#ftRainbow)"/>
+  <text x="450" y="72" font-family="monospace" font-size="26" font-weight="900"
+        fill="url(#ftRainbow)" text-anchor="middle" letter-spacing="5" filter="url(#glow3)">Let's Build Great Things! 🚀</text>
+  <text x="450" y="98" font-family="monospace" font-size="12" fill="#64748b" text-anchor="middle" letter-spacing="2">© 2026 Vishan Rabari — Built with passion in Gujarat, India</text>
+  <rect x="0" y="124" width="900" height="6" fill="url(#ftRainbow)"/>
 </svg>
 </div>
