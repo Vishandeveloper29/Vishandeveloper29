@@ -1,8 +1,4 @@
-<!-- ╔══════════════════════════════════════════════════════════════╗
-     ║   VISHAN RABARI — ULTRA COLORFUL WORLD-CLASS README          ║
-     ╚══════════════════════════════════════════════════════════════╝ -->
 
-<!-- ░░░░░░░░░░░░░░░ HERO BANNER ░░░░░░░░░░░░░░░ -->
 <div align="center">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%">
   <defs>
