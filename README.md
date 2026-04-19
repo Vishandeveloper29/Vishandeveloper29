@@ -53,32 +53,34 @@
   <circle cx="760" cy="32"  r="3"   fill="#f472b6"  opacity="1" filter="url(#glow2)"/>
   <circle cx="875" cy="240" r="2.5" fill="#ff6b6b"  opacity="0.7"/>
   <rect x="0" y="0" width="900" height="5" fill="url(#rainbowBar)"/>
-  <rect x="390" y="28" width="120" height="40" rx="20" fill="none" stroke="url(#subGrad)" stroke-width="2" opacity="0.9"/>
-  <rect x="390" y="28" width="120" height="40" rx="20" fill="url(#subGrad)" opacity="0.08"/>
+  <rect x="370" y="28" width="160" height="40" rx="20" fill="none" stroke="url(#subGrad)" stroke-width="2" opacity="0.9"/>
+  <rect x="370" y="28" width="160" height="40" rx="20" fill="url(#subGrad)" opacity="0.08"/>
   <text x="450" y="53" font-family="monospace" font-size="14" font-weight="800"
-        fill="url(#subGrad)" text-anchor="middle" letter-spacing="3" filter="url(#glow2)">⚡ VR.dev</text>
+        fill="url(#subGrad)" text-anchor="middle" letter-spacing="3" filter="url(#glow2)">⚡ VR.dev · 3D</text>
   <text x="450" y="138" font-family="monospace" font-size="74" font-weight="900"
         fill="url(#nameGrad)" text-anchor="middle" letter-spacing="9" filter="url(#glow)">VISHAN RABARI</text>
-  <text x="450" y="174" font-family="monospace" font-size="17" font-weight="700"
-        fill="url(#subGrad)" text-anchor="middle" letter-spacing="5" filter="url(#glow2)">✦  FRONTEND DEVELOPER  &amp;  CREATOR  ✦</text>
-  <rect x="115" y="192" width="95"  height="24" rx="12" fill="#ff6b6b"  opacity="0.22"/>
-  <rect x="220" y="192" width="80"  height="24" rx="12" fill="#ffd93d"  opacity="0.22"/>
-  <rect x="310" y="192" width="95"  height="24" rx="12" fill="#c8ff00"  opacity="0.22"/>
-  <rect x="415" y="192" width="70"  height="24" rx="12" fill="#00e5ff"  opacity="0.22"/>
-  <rect x="495" y="192" width="90"  height="24" rx="12" fill="#c77dff"  opacity="0.22"/>
-  <rect x="595" y="192" width="85"  height="24" rx="12" fill="#f472b6"  opacity="0.22"/>
-  <rect x="690" y="192" width="95"  height="24" rx="12" fill="#4d96ff"  opacity="0.22"/>
-  <text x="162" y="209" font-family="monospace" font-size="10.5" fill="#ff6b6b"  text-anchor="middle" font-weight="700">HTML5 🔥</text>
-  <text x="260" y="209" font-family="monospace" font-size="10.5" fill="#ffd93d"  text-anchor="middle" font-weight="700">CSS3 ✨</text>
-  <text x="357" y="209" font-family="monospace" font-size="10.5" fill="#c8ff00"  text-anchor="middle" font-weight="700">JavaScript ⚡</text>
-  <text x="450" y="209" font-family="monospace" font-size="10.5" fill="#00e5ff"  text-anchor="middle" font-weight="700">Figma</text>
-  <text x="540" y="209" font-family="monospace" font-size="10.5" fill="#c77dff"  text-anchor="middle" font-weight="700">REST APIs</text>
-  <text x="637" y="209" font-family="monospace" font-size="10.5" fill="#f472b6"  text-anchor="middle" font-weight="700">React 🌱</text>
-  <text x="737" y="209" font-family="monospace" font-size="10.5" fill="#4d96ff"  text-anchor="middle" font-weight="700">Freelance ✅</text>
-  <circle cx="292" cy="245" r="5" fill="#c8ff00" opacity="0.9" filter="url(#glow2)"/>
-  <text x="304" y="250" font-family="monospace" font-size="11" fill="#c8ff00" font-weight="700">OPEN TO FREELANCE</text>
-  <text x="480" y="250" font-family="monospace" font-size="11" fill="#94a3b8">·</text>
-  <text x="493" y="250" font-family="monospace" font-size="11" fill="#ffd93d" font-weight="600">📍 Gandhidham, Gujarat 🇮🇳</text>
+  <text x="450" y="174" font-family="monospace" font-size="15" font-weight="700"
+        fill="url(#subGrad)" text-anchor="middle" letter-spacing="4" filter="url(#glow2)">✦  FRONTEND DEV  ·  3D ARTIST  ·  CREATOR  ✦</text>
+  <rect x="75"  y="192" width="95"  height="24" rx="12" fill="#ff6b6b"  opacity="0.22"/>
+  <rect x="180" y="192" width="80"  height="24" rx="12" fill="#ffd93d"  opacity="0.22"/>
+  <rect x="270" y="192" width="95"  height="24" rx="12" fill="#c8ff00"  opacity="0.22"/>
+  <rect x="375" y="192" width="70"  height="24" rx="12" fill="#00e5ff"  opacity="0.22"/>
+  <rect x="455" y="192" width="100" height="24" rx="12" fill="#f472b6"  opacity="0.22"/>
+  <rect x="565" y="192" width="100" height="24" rx="12" fill="#c77dff"  opacity="0.22"/>
+  <rect x="675" y="192" width="90"  height="24" rx="12" fill="#ffd93d"  opacity="0.22"/>
+  <rect x="775" y="192" width="55"  height="24" rx="12" fill="#4d96ff"  opacity="0.22"/>
+  <text x="122" y="209" font-family="monospace" font-size="10.5" fill="#ff6b6b"  text-anchor="middle" font-weight="700">HTML/CSS 🔥</text>
+  <text x="220" y="209" font-family="monospace" font-size="10.5" fill="#ffd93d"  text-anchor="middle" font-weight="700">JS ⚡</text>
+  <text x="317" y="209" font-family="monospace" font-size="10.5" fill="#c8ff00"  text-anchor="middle" font-weight="700">Three.js 🌐</text>
+  <text x="410" y="209" font-family="monospace" font-size="10.5" fill="#00e5ff"  text-anchor="middle" font-weight="700">React 🌱</text>
+  <text x="505" y="209" font-family="monospace" font-size="10.5" fill="#f472b6"  text-anchor="middle" font-weight="700">Blender 🎨</text>
+  <text x="615" y="209" font-family="monospace" font-size="10.5" fill="#c77dff"  text-anchor="middle" font-weight="700">REST APIs</text>
+  <text x="720" y="209" font-family="monospace" font-size="10.5" fill="#ffd93d"  text-anchor="middle" font-weight="700">Figma</text>
+  <text x="802" y="209" font-family="monospace" font-size="10.5" fill="#4d96ff"  text-anchor="middle" font-weight="700">Freelance ✅</text>
+  <circle cx="260" cy="245" r="5" fill="#c8ff00" opacity="0.9" filter="url(#glow2)"/>
+  <text x="272" y="250" font-family="monospace" font-size="11" fill="#c8ff00" font-weight="700">OPEN TO FREELANCE</text>
+  <text x="450" y="250" font-family="monospace" font-size="11" fill="#94a3b8">·</text>
+  <text x="463" y="250" font-family="monospace" font-size="11" fill="#ffd93d" font-weight="600">📍 Gandhidham, Gujarat 🇮🇳</text>
   <path d="M0,268 Q150,250 300,264 Q450,278 600,260 Q750,244 900,268 L900,300 L0,300 Z" fill="#0d0221" opacity="0.8"/>
   <rect x="0" y="295" width="900" height="5" fill="url(#rainbowBar)"/>
 </svg>
@@ -87,14 +89,14 @@
 <br/>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=700&color=C8FF00&center=true&vCenter=true&multiline=false&width=850&lines=🚀+Available+for+Freelance+·+Gandhidham%2C+Gujarat+🇮🇳;🎨+Crafting+pixel-perfect%2C+interactive+web+experiences;💻+HTML+·+CSS+·+JavaScript+·+Figma+·+REST+APIs;🌱+Currently+levelling+up+with+React.js;✨+Design+First.+Build+Second.+Ship+Always." alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=700&color=C8FF00&center=true&vCenter=true&multiline=false&width=850&lines=🚀+Available+for+Freelance+·+Gandhidham%2C+Gujarat+🇮🇳;🎨+Crafting+pixel-perfect%2C+interactive+web+experiences;💻+HTML+·+CSS+·+JavaScript+·+Three.js+·+Blender;🌐+Building+3D+web+experiences+with+Three.js;✨+Design+First.+Build+Second.+Ship+Always." alt="Typing SVG"/>
 </div>
 
 <br/>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-vishanrabari.vercel.app-ff6b6b?style=for-the-badge&labelColor=1a0a0a)](https://vishanrabari.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-vishandeveloper.me-ff6b6b?style=for-the-badge&labelColor=1a0a0a)](https://vishandeveloper.me)
 [![LinkedIn](https://img.shields.io/badge/💼_LINKEDIN-Connect-4d96ff?style=for-the-badge&labelColor=0a0a1a)](https://www.linkedin.com/in/vishan-rabari-7634ab392)
 [![Gmail](https://img.shields.io/badge/📧_GMAIL-Email_Me-ff4444?style=for-the-badge&labelColor=1a0a0a)](mailto:rabarivishan2@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/💬_WHATSAPP-Chat_Now-c8ff00?style=for-the-badge&labelColor=0a1a0a)](https://wa.me/918141314836)
@@ -145,9 +147,11 @@
 ```javascript
 const developer = {
   name      : "Vishan Rabari",
-  role      : "Frontend Developer & Creator",
+  role      : ["Frontend Developer",
+               "3D Artist", "Creator"],
   location  : "Gandhidham, Gujarat 🇮🇳",
   stack     : ["HTML5","CSS3","JavaScript",
+               "Three.js","Blender",
                "Figma","REST APIs"],
   available : true,      // ✅ Open to freelance
 
@@ -158,7 +162,9 @@ const developer = {
     clients      : "🌍 Worldwide",
   },
 
-  currentlyLearning : "React.js 🚀",
+  currentlyLearning : ["React.js 🚀",
+                       "Three.js 🌐",
+                       "Blender 3D 🎨"],
   philosophy : "Design first. Build second. Ship.",
   contact    : "rabarivishan2@gmail.com",
 };
@@ -218,10 +224,15 @@ console.log("▶ Let's build something amazing!");
 ![Web Perf](https://img.shields.io/badge/Web_Performance-Advanced-ffd93d?style=flat-square&labelColor=1a1500)
 ![SEO](https://img.shields.io/badge/SEO-Intermediate-c8ff00?style=flat-square&labelColor=001200)
 
+### 🌐 3D & Creative
+![Three.js](https://img.shields.io/badge/Three.js-Learning_🌐-ffffff?style=flat-square&logo=three.js&logoColor=black&labelColor=0a0a0a)
+![Blender](https://img.shields.io/badge/Blender-Learning_🎨-F5792A?style=flat-square&logo=blender&logoColor=white&labelColor=1a0800)
+![WebGL](https://img.shields.io/badge/WebGL-Exploring-990000?style=flat-square&labelColor=1a0000)
+![GSAP](https://img.shields.io/badge/GSAP_Animations-Learning-88CE02?style=flat-square&logo=greensock&logoColor=white&labelColor=0d1400)
+
 ### 🚀 Currently Learning
 ![React](https://img.shields.io/badge/React.js-Learning_🌱-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=001a1f)
 ![Node](https://img.shields.io/badge/Node.js-Next_Goal-339933?style=flat-square&logo=node.js&logoColor=white&labelColor=001a00)
-![GSAP](https://img.shields.io/badge/GSAP_Animations-Learning-88CE02?style=flat-square&logo=greensock&logoColor=white&labelColor=0d1400)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-Next_Goal-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=001214)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Next_Goal-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=00091a)
 
@@ -230,7 +241,7 @@ console.log("▶ Let's build something amazing!");
 <br/>
 
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="95%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="95%">
   <defs>
     <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="100%" stop-color="#ffd93d"/></linearGradient>
     <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#00e5ff"/></linearGradient>
@@ -239,48 +250,64 @@ console.log("▶ Let's build something amazing!");
     <linearGradient id="bar5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffd93d"/><stop offset="100%" stop-color="#c8ff00"/></linearGradient>
     <linearGradient id="bar6" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c77dff"/><stop offset="100%" stop-color="#f472b6"/></linearGradient>
     <linearGradient id="bar7" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#4d96ff"/></linearGradient>
+    <linearGradient id="bar8" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#F5792A"/><stop offset="100%" stop-color="#ffd93d"/></linearGradient>
+    <linearGradient id="bar9" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#c8ff00"/></linearGradient>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c8ff00"/><stop offset="50%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#c8ff00"/></linearGradient>
     <filter id="glowBar">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="880" height="360" rx="16" fill="#0d0221"/>
+  <rect width="880" height="400" rx="16" fill="#0d0221"/>
   <rect width="880" height="5" rx="2" fill="url(#titleGrad)"/>
   <text x="440" y="35" font-family="monospace" font-size="15" font-weight="800" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="4" filter="url(#glowBar)">📊 SKILL PROFICIENCY</text>
+
   <text x="160" y="70" font-family="monospace" font-size="12.5" fill="#ff6b6b" text-anchor="end" font-weight="700">HTML5</text>
   <rect x="170" y="57" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="57" width="466" height="16" rx="8" fill="url(#bar1)" filter="url(#glowBar)"/>
   <text x="670" y="70" font-family="monospace" font-size="12" fill="#ffd93d" font-weight="800">95% ⭐⭐⭐⭐⭐</text>
+
   <text x="160" y="107" font-family="monospace" font-size="12.5" fill="#c8ff00" text-anchor="end" font-weight="700">CSS3</text>
   <rect x="170" y="94" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="94" width="441" height="16" rx="8" fill="url(#bar2)" filter="url(#glowBar)"/>
   <text x="670" y="107" font-family="monospace" font-size="12" fill="#c8ff00" font-weight="800">90% ⭐⭐⭐⭐⭐</text>
+
   <text x="160" y="144" font-family="monospace" font-size="12.5" fill="#00e5ff" text-anchor="end" font-weight="700">Responsive UI</text>
   <rect x="170" y="131" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="131" width="441" height="16" rx="8" fill="url(#bar3)" filter="url(#glowBar)"/>
   <text x="670" y="144" font-family="monospace" font-size="12" fill="#4d96ff" font-weight="800">90% ⭐⭐⭐⭐⭐</text>
+
   <text x="160" y="181" font-family="monospace" font-size="12.5" fill="#f472b6" text-anchor="end" font-weight="700">CSS Animations</text>
   <rect x="170" y="168" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="168" width="417" height="16" rx="8" fill="url(#bar4)" filter="url(#glowBar)"/>
   <text x="670" y="181" font-family="monospace" font-size="12" fill="#f472b6" font-weight="800">85% ⭐⭐⭐⭐⭐</text>
+
   <text x="160" y="218" font-family="monospace" font-size="12.5" fill="#ffd93d" text-anchor="end" font-weight="700">Git &amp; GitHub</text>
   <rect x="170" y="205" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="205" width="392" height="16" rx="8" fill="url(#bar5)" filter="url(#glowBar)"/>
   <text x="670" y="218" font-family="monospace" font-size="12" fill="#ffd93d" font-weight="800">80% ⭐⭐⭐⭐</text>
+
   <text x="160" y="255" font-family="monospace" font-size="12.5" fill="#c77dff" text-anchor="end" font-weight="700">Figma / UI·UX</text>
   <rect x="170" y="242" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="242" width="382" height="16" rx="8" fill="url(#bar6)" filter="url(#glowBar)"/>
   <text x="670" y="255" font-family="monospace" font-size="12" fill="#c77dff" font-weight="800">78% ⭐⭐⭐⭐</text>
+
   <text x="160" y="292" font-family="monospace" font-size="12.5" fill="#00e5ff" text-anchor="end" font-weight="700">JavaScript ES6+</text>
   <rect x="170" y="279" width="490" height="16" rx="8" fill="#1e1e2e"/>
   <rect x="170" y="279" width="319" height="16" rx="8" fill="url(#bar7)" filter="url(#glowBar)"/>
   <text x="670" y="292" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="800">65% ⭐⭐⭐ 🌱</text>
-  <text x="160" y="329" font-family="monospace" font-size="12.5" fill="#fb923c" text-anchor="end" font-weight="700">REST APIs</text>
+
+  <text x="160" y="329" font-family="monospace" font-size="12.5" fill="#F5792A" text-anchor="end" font-weight="700">Blender 3D</text>
   <rect x="170" y="316" width="490" height="16" rx="8" fill="#1e1e2e"/>
-  <rect x="170" y="316" width="353" height="16" rx="8" fill="url(#bar4)" filter="url(#glowBar)"/>
-  <text x="670" y="329" font-family="monospace" font-size="12" fill="#fb923c" font-weight="800">72% ⭐⭐⭐⭐</text>
-  <rect y="355" width="880" height="5" rx="2" fill="url(#titleGrad)"/>
+  <rect x="170" y="316" width="294" height="16" rx="8" fill="url(#bar8)" filter="url(#glowBar)"/>
+  <text x="670" y="329" font-family="monospace" font-size="12" fill="#F5792A" font-weight="800">60% ⭐⭐⭐ 🌱</text>
+
+  <text x="160" y="366" font-family="monospace" font-size="12.5" fill="#dddddd" text-anchor="end" font-weight="700">Three.js</text>
+  <rect x="170" y="353" width="490" height="16" rx="8" fill="#1e1e2e"/>
+  <rect x="170" y="353" width="245" height="16" rx="8" fill="url(#bar9)" filter="url(#glowBar)"/>
+  <text x="670" y="366" font-family="monospace" font-size="12" fill="#c8ff00" font-weight="800">50% ⭐⭐⭐ 🚀</text>
+
+  <rect y="395" width="880" height="5" rx="2" fill="url(#titleGrad)"/>
 </svg>
 </div>
 
@@ -323,6 +350,14 @@ console.log("▶ Let's build something amazing!");
 > A comprehensive, modern design system & component library with consistent spacing, typography, and interaction patterns.
 >
 > ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) &nbsp;[**GitHub ↗**](https://github.com/Vishandeveloper29)
+
+---
+
+> ![](https://img.shields.io/badge/🌐_3D_Portfolio-Three.js_+_Blender-ffffff?style=flat-square&logo=three.js&logoColor=black&labelColor=0a0a0a) ![New](https://img.shields.io/badge/🆕_New-c8ff00?style=flat-square&labelColor=001200)
+>
+> Interactive 3D portfolio experience built with Three.js, featuring custom Blender models, WebGL shaders, and smooth camera animations.
+>
+> ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) &nbsp;[**Live ↗**](https://vishandeveloper.me) &nbsp;·&nbsp; [**GitHub ↗**](https://github.com/Vishandeveloper29)
 
 ---
 
@@ -377,7 +412,7 @@ console.log("▶ Let's build something amazing!");
 <div align="center">
 
 [![All Repos](https://img.shields.io/badge/🚀_View_All_28%2B_Projects-GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0d0d)](https://github.com/Vishandeveloper29?tab=repositories)
-[![Live Portfolio](https://img.shields.io/badge/🌐_See_Live_Portfolio-vishanrabari.vercel.app-ff6b6b?style=for-the-badge&labelColor=1a0000)](https://vishanrabari.vercel.app)
+[![Live Portfolio](https://img.shields.io/badge/🌐_See_Live_Portfolio-vishandeveloper.me-ff6b6b?style=for-the-badge&labelColor=1a0000)](https://vishandeveloper.me)
 
 </div>
 
@@ -462,10 +497,10 @@ console.log("▶ Let's build something amazing!");
 |✅ **Completed**|🔄 **In Progress**|🎯 **Next Up**|🔮 **Future**|
 |:---:|:---:|:---:|:---:|
 |![](https://img.shields.io/badge/HTML5-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/JavaScript_ES6+-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/React.js-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/Next.js-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/CSS3_&_Animations-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/DOM_Manipulation-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Node.js-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/MongoDB-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/Responsive_Design-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/REST_APIs-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/GSAP_Animations-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/TypeScript-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/Figma_&_UI/UX-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Async_/_Await-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Tailwind_CSS-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/GraphQL-future-c77dff?style=flat-square)|
-|![](https://img.shields.io/badge/GitHub_Pages-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Git_Advanced-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Core_Web_Vitals-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/Docker-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/CSS3_&_Animations-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Three.js_🌐-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Node.js-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/MongoDB-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/Responsive_Design-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/Blender_3D_🎨-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/GSAP_Animations-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/TypeScript-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/Figma_&_UI/UX-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/REST_APIs-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Tailwind_CSS-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/WebGL_Shaders-future-c77dff?style=flat-square)|
+|![](https://img.shields.io/badge/GitHub_Pages-done-c8ff00?style=flat-square)|![](https://img.shields.io/badge/DOM_Manipulation-wip-ffd93d?style=flat-square)|![](https://img.shields.io/badge/Core_Web_Vitals-next-00e5ff?style=flat-square)|![](https://img.shields.io/badge/R3F_(React_Three)-future-c77dff?style=flat-square)|
 
 </div>
 
@@ -496,7 +531,7 @@ console.log("▶ Let's build something amazing!");
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-ff6b6b?style=for-the-badge&labelColor=1a0000)](https://vishanrabari.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-ff6b6b?style=for-the-badge&labelColor=1a0000)](https://vishandeveloper.me)
 [![Email](https://img.shields.io/badge/📧_Email_Me-ffd93d?style=for-the-badge&labelColor=151000)](mailto:rabarivishan2@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/💬_WhatsApp-c8ff00?style=for-the-badge&labelColor=001200)](https://wa.me/918141314836)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-4d96ff?style=for-the-badge&labelColor=00061a)](https://www.linkedin.com/in/vishan-rabari-7634ab392)
