@@ -38,7 +38,8 @@ const vishan: Developer = {
 
   stack: {
     expert   : ["HTML/CSS", "JavaScript", "Three.js",
-                "Blender", "Figma", "Git", "REST APIs"],
+                "Blender", "Figma", "Git", "REST APIs",
+                "Python", "C"],
     learning : ["React.js"],
   },
 
@@ -59,6 +60,7 @@ const vishan: Developer = {
 | **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) &nbsp;![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) &nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) &nbsp;![Responsive](https://img.shields.io/badge/Responsive_UI-06B6D4?style=flat-square) &nbsp;![CSS Animations](https://img.shields.io/badge/CSS_Animations-a855f7?style=flat-square) |
 | **3D & Creative** | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white) &nbsp;![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) &nbsp;![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square) |
 | **Tools & Design** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) &nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) &nbsp;![REST APIs](https://img.shields.io/badge/REST_APIs-38BDF8?style=flat-square) &nbsp;![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-ffffff?style=flat-square&logo=github&logoColor=black) |
+| **Programming** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) &nbsp;![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
 | **Currently Learning** | ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black) |
 
 <br/>
