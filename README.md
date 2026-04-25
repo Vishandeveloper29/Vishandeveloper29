@@ -22,9 +22,31 @@
 
 ## `01` &nbsp; About
 
-|  |  |
-|---|---|
-| I'm **Vishan Rabari**, a **Frontend Developer & 3D Artist** from **Gandhidham, Gujarat 🇮🇳** with 1–2 years of hands-on experience building immersive, interactive web experiences.<br/><br/>I craft **3D web experiences** with Three.js & Blender and build clean, pixel-perfect frontends — from e-commerce platforms to portfolio sites that make people stop scrolling.<br/><br/>Currently leveling up in **React.js** to take my frontend game even further.<br/><br/>📍 &nbsp;Gandhidham, Gujarat, India<br/>📬 &nbsp;[rabarivishan2@gmail.com](mailto:rabarivishan2@gmail.com) | ```js const vishan: Developer = {   name    : "Vishan Rabari",   role    : ["Frontend Developer",              "3D Artist", "Creator"],   location: "Gandhidham, India 🇮🇳",    stack: {     expert   : ["HTML/CSS", "JavaScript",                 "Three.js", "Blender",                 "Figma", "Git", "REST APIs"],     learning : ["React.js"],   },    builds: ["3D Web Experiences",            "E-Commerce Frontends",            "Portfolio Sites"],    available  : true,   // ✅ Freelance only   philosophy : "Sport is spirit,              Frontend dev is mindset.", }; ``` |
+I'm **Vishan Rabari**, a **Frontend Developer & 3D Artist** from **Gandhidham, Gujarat 🇮🇳** with 1–2 years of hands-on experience building immersive, interactive web experiences.
+
+I craft **3D web experiences** with Three.js & Blender and build clean, pixel-perfect frontends — from e-commerce platforms to portfolio sites that make people stop scrolling.
+
+Currently leveling up in **React.js** to take my frontend game even further.
+
+📍 &nbsp;Gandhidham, Gujarat, India &nbsp;&nbsp;|&nbsp;&nbsp; 📬 &nbsp;[rabarivishan2@gmail.com](mailto:rabarivishan2@gmail.com)
+
+```js
+const vishan: Developer = {
+  name    : "Vishan Rabari",
+  role    : ["Frontend Developer", "3D Artist", "Creator"],
+  location: "Gandhidham, India 🇮🇳",
+
+  stack: {
+    expert   : ["HTML/CSS", "JavaScript", "Three.js",
+                "Blender", "Figma", "Git", "REST APIs"],
+    learning : ["React.js"],
+  },
+
+  builds     : ["3D Web Experiences", "E-Commerce Frontends", "Portfolio Sites"],
+  available  : true,        // ✅ Open to Freelance
+  philosophy : "Sport is spirit. Frontend dev is mindset.",
+};
+```
 
 <br/>
 
@@ -120,7 +142,7 @@
 
 ---
 
-**Vishan Rabari** &nbsp;·&nbsp; Frontend Developer & 3D Artist &nbsp;·&nbsp; Gandhidham, India &nbsp;·&nbsp; 2026
+**Vishan Rabari** &nbsp;·&nbsp; Frontend Developer & 3D Artist &nbsp;·&nbsp; Gandhidham, India &nbsp;·&nbsp; 2026  
 *If my work resonates — a ⭐ on a repo means more than you think.*
 
 ![Footer](https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=4&section=footer)
