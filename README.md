@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Name](https://readme-typing-svg.demolab.com?font=DM+Serif+Display&size=52&duration=3000&pause=2000&color=FFFFFF&center=true&vCenter=true&width=700&height=80&lines=Vishan+Rabari.)](https://vishanrbari.lovable.app)
+[![Name](https://readme-typing-svg.demolab.com?font=DM+Serif+Display&size=52&duration=3000&pause=2000&color=FFFFFF&center=true&vCenter=true&width=700&height=80&lines=Vishan+Rabari.)]([https://vishanrbari.lovable.app](https://vishanrabari.lovable.app/))
 
 [![Role](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=3000&color=888888&center=true&vCenter=true&width=700&height=30&lines=Frontend+Dev+%C2%B7+3D+Artist+%C2%B7+Creator+%C2%B7+Gandhidham%2C+India+%F0%9F%87%AE%F0%9F%87%B3)](https://vishandeveloper.me)
 
