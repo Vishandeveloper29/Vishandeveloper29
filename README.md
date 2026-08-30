@@ -4,7 +4,7 @@
 
 [![Name](https://readme-typing-svg.demolab.com?font=DM+Serif+Display&size=52&duration=3000&pause=2000&color=FFFFFF&center=true&vCenter=true&width=700&height=80&lines=Vishan+Rabari.)](https://vishandeveloper.me)
 
-[![Role](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=3000&color=888888&center=true&vCenter=true&width=700&height=30&lines=Frontend+Dev+%C2%B7+3D+Artist+%C2%B7+Creator+%C2%B7+Gandhidham%2C+India+%F0%9F%87%AE%F0%9F%87%B3)](https://vishandeveloper.me)
+[![Role](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=3000&color=888888&center=true&vCenter=true&width=700&height=30&lines=Frontend+Developer+%C2%B7+Gandhidham%2C+India+%F0%9F%87%AE%F0%9F%87%B3)](https://vishandeveloper.me)
 
 <br/>
 
@@ -22,28 +22,26 @@
 
 ## `01` &nbsp; About
 
-I'm **Vishan Rabari**, a **Frontend Developer & 3D Artist** from **Gandhidham, Gujarat 🇮🇳** with 1–2 years of hands-on experience building immersive, interactive web experiences.
+I'm **Vishan Rabari**, a **Frontend Developer** from **Gandhidham, Gujarat 🇮🇳** building fast, modern web experiences with **React, Vite, Tailwind CSS and Framer Motion**.
 
-I craft **3D web experiences** with Three.js & Blender and build clean, pixel-perfect frontends — from e-commerce platforms to portfolio sites that make people stop scrolling.
-
-Currently leveling up in **React.js** to take my frontend game even further.
+I focus on clean, pixel-perfect UI and smooth interactions — from small utility apps to full portfolio sites.
 
 📍 &nbsp;Gandhidham, Gujarat, India &nbsp;&nbsp;|&nbsp;&nbsp; 📬 &nbsp;[rabarivishan2@gmail.com](mailto:rabarivishan2@gmail.com)
 
 ```js
 const vishan: Developer = {
   name    : "Vishan Rabari",
-  role    : ["Frontend Developer", "3D Artist", "Creator"],
+  role    : ["Frontend Developer"],
   location: "Gandhidham, India 🇮🇳",
 
   stack: {
-    expert   : ["HTML/CSS", "JavaScript", "Three.js",
-                "Blender", "Figma", "Git", "REST APIs",
-                "Python", "C"],
-    learning : ["React.js"],
+    expert   : ["HTML/CSS", "JavaScript", "React.js",
+                "Vite", "Tailwind CSS", "Framer Motion",
+                "Git", "REST APIs"],
+    learning : ["Node.js"],
   },
 
-  builds     : ["3D Web Experiences", "E-Commerce Frontends", "Portfolio Sites"],
+  builds     : ["React Web Apps", "Portfolio Sites", "UI/UX Interfaces"],
   available  : true,        // ✅ Open to Freelance
   philosophy : "Sport is spirit. Frontend dev is mindset.",
 };
@@ -57,11 +55,10 @@ const vishan: Developer = {
 
 | Layer | Technologies |
 |---|---|
-| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) &nbsp;![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) &nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) &nbsp;![Responsive](https://img.shields.io/badge/Responsive_UI-06B6D4?style=flat-square) &nbsp;![CSS Animations](https://img.shields.io/badge/CSS_Animations-a855f7?style=flat-square) |
-| **3D & Creative** | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white) &nbsp;![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) &nbsp;![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square) |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) &nbsp;![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) &nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) &nbsp;![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Styling & Motion** | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=flat-square&logo=framer&logoColor=white) &nbsp;![Responsive](https://img.shields.io/badge/Responsive_UI-06B6D4?style=flat-square) |
 | **Tools & Design** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) &nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) &nbsp;![REST APIs](https://img.shields.io/badge/REST_APIs-38BDF8?style=flat-square) &nbsp;![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-ffffff?style=flat-square&logo=github&logoColor=black) |
-| **Programming** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) &nbsp;![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
-| **Currently Learning** | ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black) |
+| **Currently Learning** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) |
 
 <br/>
 
@@ -72,18 +69,19 @@ const vishan: Developer = {
 ```
 ╔─────────────────────────────────────────────────────────────────────╗
 │                                                                     │
-│   🌐  3D Portfolio          →  vishandeveloper.me                  │
-│   🛒  LK Mart E-Commerce    →  lkmart.onrender.com                 │
-│   💱  Currency Converter    →  github.io/Currency-Converter        │
-│   ⚡  Weather App           →  github.io/Weather-app               │
-│   🔍  GitHub Explorer       →  github.io/GitHub-Explorer           │
-│   🎨  ApexDeck Design Sys   →  github.io/Apex-Deck-Design          │
-│   ✅  To-Do App             →  github.io/To-Do-List                │
+│   🌐  Portfolio             →  vishandeveloper.me                  │
+│   🩺  EventCure (SaaS)      →  eventcure-livid.vercel.app            │
+│   🧮  BMI Calculator        →  github.com/BMI-calculator             │
+│   🎲  Guessing Game         →  github.com/guessing-games             │
+│   ✊  Rock Paper Scissors   →  github.com/Rock-Paper-Scissors        │
+│   🔢  Calculator            →  github.com/Calculator                 │
 │                                                                     │
 ╚─────────────────────────────────────────────────────────────────────╝
 ```
 
-[![All Repos](https://img.shields.io/badge/🚀_View_All_28%2B_Projects-GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Vishandeveloper29?tab=repositories)
+**EventCure** — Event Operations Platform · SaaS built for **KV Agency** · [eventcure-livid.vercel.app](https://eventcure-livid.vercel.app)
+
+[![All Repos](https://img.shields.io/badge/🚀_View_All_Projects-GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Vishandeveloper29?tab=repositories)
 
 <br/>
 
@@ -128,7 +126,7 @@ const vishan: Developer = {
 │                                                                     │
 │   I'm actively looking for Freelance opportunities.                 │
 │                                                                     │
-│   Need a Frontend Developer or 3D Web Experience Builder?           │
+│   Need a Frontend Developer?                                        │
 │   Let's create something the world hasn't seen yet.                 │
 │                                                                     │
 │   📩  rabarivishan2@gmail.com                                       │
@@ -144,7 +142,7 @@ const vishan: Developer = {
 
 ---
 
-**Vishan Rabari** &nbsp;·&nbsp; Frontend Developer & 3D Artist &nbsp;·&nbsp; Gandhidham, India &nbsp;·&nbsp; 2026  
+**Vishan Rabari** &nbsp;·&nbsp; Frontend Developer &nbsp;·&nbsp; Gandhidham, India &nbsp;·&nbsp; 2026  
 *If my work resonates — a ⭐ on a repo means more than you think.*
 
 ![Footer](https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=4&section=footer)
