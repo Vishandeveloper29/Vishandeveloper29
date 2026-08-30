@@ -14,6 +14,10 @@
 &nbsp;
 [![Visitors](https://komarev.com/ghpvc/?username=Vishandeveloper29&label=Visitors&color=444444&style=flat-square)](https://github.com/Vishandeveloper29)
 
+<br/>
+
+<img src="./dot_portrait.png" width="380"/>
+
 </div>
 
 <br/>
