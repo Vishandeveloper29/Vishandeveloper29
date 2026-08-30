@@ -14,11 +14,15 @@
 &nbsp;
 [![Visitors](https://komarev.com/ghpvc/?username=Vishandeveloper29&label=Visitors&color=444444&style=flat-square)](https://github.com/Vishandeveloper29)
 
+</div>
+
 <br/>
 
-<img src="./dot_portrait.png" width="380"/>
+<p align="center">
+  <img src="./terminal_card.png" width="900"/>
+</p>
 
-</div>
+<br/>
 
 <br/>
 
