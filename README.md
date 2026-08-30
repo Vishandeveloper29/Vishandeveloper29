@@ -150,6 +150,16 @@ const vishan: Developer = {
 
 ---
 
+## `07` &nbsp; Contribution Snake 🐍
+
+<p align="center">
+  <img src="./snake.gif" width="900"/>
+</p>
+
+<br/>
+
+---
+
 **Vishan Rabari** &nbsp;·&nbsp; Frontend Developer &nbsp;·&nbsp; Gandhidham, India &nbsp;·&nbsp; 2026  
 *If my work resonates — a ⭐ on a repo means more than you think.*
 
